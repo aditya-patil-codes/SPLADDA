@@ -1,0 +1,207 @@
+<section id="clients" class="  text-center" >
+    <div>
+       <div class="section-title">
+            <h2>Our reach Across Industries</h2>
+            <h6>Following is the Brief About what do we Offer to Our clients. We have vast experience and Professionals for the Same.</h6>
+        </div>
+
+<div class="text-center ">
+    <div class="row  d-flex justify-content-center "  data-aos="zoom-in">
+      <div class="col-sm-2  my-5 mx-2" >
+        <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+          <img src="exp/bank.png" class="card-img-top" alt="Banks Icon">
+          <div class="card-body">
+            <h5 class="card-title">Banks</h5>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 my-5 mx-2">
+        <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+          <img src="exp/manufacture.png" class="card-img-top" alt="Manufacturing Icon">
+          <div class="card-body">
+            <h5 class="card-title">Manufacturing</h5>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 my-5 mx-2">
+        <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+          <img src="exp/vehicle.png" class="card-img-top" alt="Services Icon">
+          <div class="card-body">
+            <h5 class="card-title">Services</h5>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 my-5 mx-2">
+        <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+          <img src="exp/infrastructure.png" class="card-img-top" alt="Infrastructure Icon">
+          <div class="card-body">
+            <h5 class="card-title">Infrastructure</h5>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 my-5 mx-2" >
+        <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+          <img src="exp/house.png" class="card-img-top" alt="Real Estate Icon">
+          <div class="card-body">
+            <h5 class="card-title">Real Estate</h5>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- End Sevices Section -->
+
+<!-- new industries  -->
+
+<section id="testimonials" class="testimonials">
+            <div class="container-fluid" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                    <p>
+                        After Decades of Our Service, Lets See what Our Clients Have to Say About It !
+                    </p>
+                </div>
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  border: none;">
+                                    <img   src="exp/bank.png" class="card-img-top img" alt="Banks Icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Banks, NBFC and Financial Institutions </h5>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+                                    <img src="exp/bank.png" class="card-img-top" alt="Banks Icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">FMCG</h5>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+                                    <img src="exp/bank.png" class="card-img-top" alt="Banks Icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Infrastructure and real Estate
+                                    </h5>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+                                    <img src="exp/bank.png" class="card-img-top" alt="Banks Icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">IT and Software Industry
+                                    </h5>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+                                    <img src="exp/bank.png" class="card-img-top" alt="Banks Icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Health Care</h5>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="card px-3 py-3" style="color: #124265;  background-color: white; border-radius: 1px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px 10px 10px 10px; border: none;">
+                                    <img src="exp/bank.png" class="card-img-top" alt="Banks Icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Multinational Companies</h5>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+                        </div> 
+                        <!-- End testimonial item -->
+
+
+                        <!-- End testimonial item -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section> 
+        <!-- End Testimonials Section -->
+
+
+
+
+
+
+        <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+$mail = new PHPMailer(true);
+
+if (isset($_POST['subscribe'])) {
+
+
+
+
+    $email = $_POST['email'];
+
+
+    try {
+
+        $tosend = 'sp.ladda.website@gmail.com';
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER; $mail->isSMTP(); $mail->Host =
+  'smtp.gmail.com'; $mail->SMTPAuth = true; $mail->Username =
+  'sp.ladda.website@gmail.com'; $mail->Password = 'ndlwhahltqulvcjt';
+  $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; $mail->Port = 587; //
+  ------FROM Mail---------- $mail->setFrom($email, $name);
+  $mail->addAddress($tosend); $mail->isHTML(true); $mail->Subject = "New
+  Subscribed User --> " . $email; $mail->Body = $email; // $mail->AltBody =
+  'This is the body in plain text for non-HTML mail clients'; $mail->send(); //
+  echo '
+  <script>
+    window.location.href = "careers.php?message_sent";
+  </script>
+  '; echo "
+  <script>
+    alert(" Mail Send Successfully ");
+    window.location.href = "index.php";
+  </script>
+  "; } catch (Exception $e) { echo "
+  <script>
+    // Message could not be sent. Mailer Error: {$mail->ErrorInfo}';
+  </script>
+  "; } } ?>
