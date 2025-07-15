@@ -7,132 +7,132 @@ require('connection.php');
 <!DOCTYPE php>
 <php lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-        <title>All Newsletters</title>
-        <meta content="" name="description" />
-        <meta content="" name="keywords" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <!-- Favicons -->
-        <!-- <link href="assets/img/favicon.png" rel="icon">
+    <title>All Newsletters</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
-        <!-- Google Fonts -->
-       <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,500;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap" rel="stylesheet">
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-        <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,500;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-        <!--  Main CSS File -->
-        <link href="assets/css/newsletter.css" rel="stylesheet" />
-    </head>
+    <!--  Main CSS File -->
+    <link href="assets/css/newsletter.css" rel="stylesheet" />
+  </head>
 
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top">
-            <div class="container d-flex align-items-center justify-content-between">
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="index.php" class="logo"><img src="assets/img/download.png" alt="" class="img-fluid" /></a>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.php" class="logo"><img src="assets/img/download.png" alt="" class="img-fluid" /></a>
 
-                <nav id="navbar" class="navbar ">
-                    <ul>
-                        <li><a class=" scrollto active" href="index.php">Home</a></li>
-                        <li><a class=" scrollto" href="index.php">About</a></li>
-                        <li><a class=" scrollto" href="index.php">Services</a></li>
-                        <li><a class=" scrollto" href="index.php">Team</a></li>
-                        <li><a class=" scrollto" href="index.php">Contact</a></li>
-                        <li>
-                            <a class=" scrollto " href="careers.php">Careers</a>
-                        </li>
+        <nav id="navbar" class="navbar ">
+          <ul>
+            <li><a class=" scrollto active" href="./">Home</a></li>
+            <li><a class=" scrollto" href="./#about">About</a></li>
+            <li><a class=" scrollto" href="./#services">Services</a></li>
+            <li><a class=" scrollto" href="./#team">Team</a></li>
+            <li><a class=" scrollto" href="./#contact">Contact</a></li>
+            <li>
+              <a class=" scrollto " href="careers.php">Careers</a>
+            </li>
 
-                        <li>
-                            <a class=" scrollto" href="newsletter.php">Updates</a>
-                        </li>
+            <li>
+              <a class=" scrollto" href="newsletter.php">Updates</a>
+            </li>
 
-                        <li></li>
-                        <li><a class=" scrollto" href="login.php">Admin</a></li>
+            <li></li>
+            <li><a class=" scrollto" href="login.php">Admin</a></li>
 
-                    </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
-                <!-- .navbar -->
-            </div>
-        </header>
-        <!-- End Header -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-        <main id="main">
-            <!-- ======= Breadcrumbs ======= -->
-            <section id="breadcrumbs" class="breadcrumbs">
-                <div class="container">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h2>Newsletter</h2>
-                        <ol>
-                            <li><a href="index.php">Newsletters</a></li>
-                            <li>All Newsletter</li>
-                        </ol>
-                    </div>
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Newsletter</h2>
+            <ol>
+              <li><a href="index.php">Newsletters</a></li>
+              <li>All Newsletter</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= Portfolio Details Section ======= -->
+
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon-box">
+                <div class="text-center">
+                  <div class="icon text-center">
+                    <i class="ri-palette-line"></i>
+                  </div>
+                  <h4 class="title"><a>GST </a></h4>
+                  <p class="description">
+                    We will predominantly work with organisations in the
+                    charitable and voluntary sectors as partners to help them
+                    achieve their desired outcomes.
+                  </p>
                 </div>
-            </section>
-            <!-- End Breadcrumbs -->
+              </div>
+            </div>
 
-            <!-- ======= Portfolio Details Section ======= -->
+            <div class="col-md-6 col-lg-8 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Date</th>
 
-            <section id="hero" class="d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="icon-box">
-                                <div class="text-center">
-                                    <div class="icon text-center">
-                                        <i class="ri-palette-line"></i>
-                                    </div>
-                                    <h4 class="title"><a>GST </a></h4>
-                                    <p class="description">
-                                        We will predominantly work with organisations in the
-                                        charitable and voluntary sectors as partners to help them
-                                        achieve their desired outcomes.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-8 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Date</th>
-
-                                    </tr>
-                                </thead>
-                                <tbody>
+                  </tr>
+                </thead>
+                <tbody>
 
 
 
-                                    <?php
+                  <?php
 
 
 
 
 
 
-                                    $sql = "SELECT * FROM news WHERE category= 'GST' ";
+                  $sql = "SELECT * FROM news WHERE category= 'GST' ";
 
 
-                                    $query = mysqli_query($con, $sql);
-                                    $rows = mysqli_num_rows($query);
-                                    $count = 0;
+                  $query = mysqli_query($con, $sql);
+                  $rows = mysqli_num_rows($query);
+                  $count = 0;
 
 
 
@@ -144,43 +144,43 @@ require('connection.php');
 
 
 
-                                    if ($rows) {
-                                        while ($result2 = mysqli_fetch_assoc($query)) {
-                                    ?>
+                  if ($rows) {
+                    while ($result2 = mysqli_fetch_assoc($query)) {
+                  ?>
 
 
 
-                                            <tr>
-                                                <th> <?= ++$count ?></th>
-                                                <td> <a href="uploaddocs/.<?php echo $result2['file']; ?>" target="_blank"><?= $result2['name'] ?></a></td>
-                                                <td> <?= $result2['date'] ?></td>
+                      <tr>
+                        <th> <?= ++$count ?></th>
+                        <td> <a href="uploaddocs/.<?php echo $result2['file']; ?>" target="_blank"><?= $result2['name'] ?></a></td>
+                        <td> <?= $result2['date'] ?></td>
 
 
-                                            </tr>
+                      </tr>
 
 
 
 
-                                        <?php
-                                        }
-                                    } else {
-                                        ?>
-                                        <tr>
-                                            <td colspan="7">No record Found </td>
-                                        </tr>
-                                    <?php
-                                    }
-                                    ?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-            </section>
-        </main>
-        <!-- End #main -->
+                    <?php
+                    }
+                  } else {
+                    ?>
+                    <tr>
+                      <td colspan="7">No record Found </td>
+                    </tr>
+                  <?php
+                  }
+                  ?>
+                </tbody>
+              </table>
+            </div>
+          </div>
+      </section>
+    </main>
+    <!-- End #main -->
 
-        <!-- ======= Footer ======= -->
-        <footer id="footer">
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -196,37 +196,37 @@ require('connection.php');
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporrate Affairs</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a>
-              </li>
-            </ul>
-          </div>
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporrate Affairs</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a>
+                </li>
+              </ul>
+            </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
@@ -268,8 +268,7 @@ require('connection.php');
                 <input
                   type="email"
                   placeholder="Enter Your Email address"
-                  name="email"
-                />
+                  name="email" />
                 <input type="submit" name="subscribe" value="Subscribe" />
               </form>
             </div>
@@ -285,25 +284,25 @@ require('connection.php');
             Reserved
           </div>
         </div>
-        
+
       </div>
     </footer>
-        <!-- End Footer -->
+    <!-- End Footer -->
 
-        <div id="preloader"></div>
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 
 </php>
