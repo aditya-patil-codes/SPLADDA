@@ -35,6 +35,23 @@ require('connection.php');
 
     <!--  Main CSS File -->
     <link href="assets/css/newsletter.css" rel="stylesheet" />
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        bottom: 10%;
+        right: 1%;
+        z-index: 10000;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        padding: 5px;
+        /* box-shadow: 0 2px 10px rgba(0,0,0,0.3); */
+      }
+
+      .whatsapp-icon {
+        width: 30px;
+        height: 30px;
+      }
+    </style>
   </head>
 
   <body>
@@ -69,7 +86,13 @@ require('connection.php');
       </div>
     </header>
     <!-- End Header -->
-
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/918600600955"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" class="whatsapp-icon">
+    </a>
     <main id="main">
       <!-- ======= Breadcrumbs ======= -->
       <section id="breadcrumbs" class="breadcrumbs">

@@ -25,7 +25,7 @@ if (empty($_SESSION['username'])) {
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
-   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,500;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap" rel="stylesheet">
@@ -41,6 +41,23 @@ if (empty($_SESSION['username'])) {
     <!--  Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/careers.css" rel="stylesheet" />
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 10%;
+            right: 1%;
+            z-index: 10000;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            padding: 5px;
+            /* box-shadow: 0 2px 10px rgba(0,0,0,0.3); */
+        }
+
+        .whatsapp-icon {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -52,11 +69,11 @@ if (empty($_SESSION['username'])) {
 
             <nav id="navbar" class="navbar ">
                 <ul>
-                    <li><a class=" scrollto active" href="index.php">Home</a></li>
-                    <li><a class=" scrollto" href="index.php">About</a></li>
-                    <li><a class=" scrollto" href="index.php">Services</a></li>
-                    <li><a class=" scrollto" href="index.php">Team</a></li>
-                    <li><a class=" scrollto" href="index.php">Contact</a></li>
+                    <li><a class=" scrollto active" href="./">Home</a></li>
+                    <li><a class=" scrollto" href="./#about">About</a></li>
+                    <li><a class=" scrollto" href="./#services">Services</a></li>
+                    <li><a class=" scrollto" href="./#team">Team</a></li>
+                    <li><a class=" scrollto" href="./#contact">Contact</a></li>
                     <li>
                         <a class=" scrollto " href="careers.php">Careers</a>
                     </li>
@@ -66,7 +83,9 @@ if (empty($_SESSION['username'])) {
                     </li>
 
                     <li></li>
-                    <li> <a class="text-danger" href="index.php"> Admin Logout </a></li>
+
+
+                    <li> <a class="text-danger" href="logout.php"> Admin Logout </a></li>
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,7 +94,13 @@ if (empty($_SESSION['username'])) {
         </div>
     </header>
     <!-- End Header -->
-
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/918600600955"
+        class="whatsapp-float"
+        target="_blank"
+        aria-label="Chat on WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" class="whatsapp-icon">
+    </a>
     <main id="main">
         <!-- ======= Breadcrumbs ======= -->
         <section id="breadcrumbs" class="breadcrumbs">

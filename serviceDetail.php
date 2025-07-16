@@ -17,7 +17,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
   <!-- Google Fonts -->
- <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,500;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap" rel="stylesheet">
@@ -33,6 +33,22 @@
     .icon-box:hover {
       transform: translateY(-5px);
     }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 10%;
+      right: 1%;
+      z-index: 10000;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      padding: 5px;
+      /* box-shadow: 0 2px 10px rgba(0,0,0,0.3); */
+    }
+
+    .whatsapp-icon {
+      width: 30px;
+      height: 30px;
+    }
   </style>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -47,11 +63,11 @@
 
       <nav id="navbar" class="navbar ">
         <ul>
-          <li><a class=" scrollto active" href="index.php">Home</a></li>
-          <li><a class=" scrollto" href="index.php">About</a></li>
-          <li><a class=" scrollto" href="index.php">Services</a></li>
-          <li><a class=" scrollto" href="index.php">Team</a></li>
-          <li><a class=" scrollto" href="index.php">Contact</a></li>
+          <li><a class=" scrollto active" href="./">Home</a></li>
+          <li><a class=" scrollto" href="./#about">About</a></li>
+          <li><a class=" scrollto" href="./#services">Services</a></li>
+          <li><a class=" scrollto" href="./#team">Team</a></li>
+          <li><a class=" scrollto" href="./#contact">Contact</a></li>
           <li>
             <a class=" scrollto " href="careers.php">Careers</a>
           </li>
@@ -70,6 +86,13 @@
     </div>
   </header>
   <!-- End Header -->
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/918600600955"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Chat on WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" class="whatsapp-icon">
+  </a>
   <section style="padding-bottom: 0px">
     <div id="carouselExampleInterval" class="carousel slide py-0" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -111,7 +134,7 @@
 
 
 
-  <section id="about" class="about pt-2 pb-2">
+  <section id="" class="about pt-2 pb-2">
     <div class="container" data-aos="fade-up">
       <section id="about-video" class="about-video container-fluid">
         <div class="container" data-aos="fade-up">
@@ -144,7 +167,7 @@
   </section>
 
   <!-- 2 -->
-  <section id="about" class="about pt-2 pb-2 section-bg">
+  <section id="" class="about pt-2 pb-2 section-bg">
     <div class="container" data-aos="fade-up">
       <section id="about-video" class="about-video container-fluid">
         <div class="container" data-aos="fade-up">
@@ -179,7 +202,7 @@
 
   <!-- 3 -->
 
-  <section id="about" class="about pt-2 pb-2">
+  <section id="" class="about pt-2 pb-2">
     <div class="container" data-aos="fade-up">
       <section id="about-video" class="about-video container-fluid">
         <div class="container" data-aos="fade-up">
@@ -215,7 +238,7 @@
   </section>
 
   <!-- 4 -->
-  <section id="about" class="about pt-2 pb-2 section-bg">
+  <section id="" class="about pt-2 pb-2 section-bg">
     <div class="container" data-aos="fade-up">
       <section id="about-video" class="about-video container-fluid">
         <div class="container" data-aos="fade-up">
@@ -252,7 +275,7 @@
   </section>
 
   <!-- 5 -->
-  <section id="about" class="about pt-2 pb-2">
+  <section id="" class="about pt-2 pb-2">
     <div class="container" data-aos="fade-up">
       <section id="about-video" class="about-video container-fluid">
         <div class="container" data-aos="fade-up">
@@ -288,21 +311,21 @@
   </section>
   <!-- ======= Footer ======= -->
   <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>S.P. Ladda & Associates</h3>
-              <p>
-                104-105 Ganga Collidium<br />
-                Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra
-                411037 <br /><br />
-                <strong>Phone:</strong> 020-24244200 <br />
-                <strong>Email:</strong> caladdaclient@gmail.com <br />
-              </p>
-            </div>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>S.P. Ladda & Associates</h3>
+            <p>
+              104-105 Ganga Collidium<br />
+              Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra
+              411037 <br /><br />
+              <strong>Phone:</strong> 020-24244200 <br />
+              <strong>Email:</strong> caladdaclient@gmail.com <br />
+            </p>
+          </div>
 
-            <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li>
@@ -335,66 +358,65 @@
             </ul>
           </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a>Attestation</a></li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a>Risk Management</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a>Management Consultancy</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a>Business Support Services</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a>Taxation</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a>Indirect Taxation </a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a>Company Law </a>
-                </li>
-              </ul>
-            </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a>Attestation</a></li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Risk Management</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Management Consultancy</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Business Support Services</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Taxation</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Indirect Taxation </a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a>Company Law </a>
+              </li>
+            </ul>
+          </div>
 
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Join Our Newsletter</h4>
-              <p>
-                Get Amazed By our weekly Newsletter, get Updated About the Stuff
-              </p>
-              <form method="post">
-                <input
-                  type="email"
-                  placeholder="Enter Your Email address"
-                  name="email"
-                />
-                <input type="submit" name="subscribe" value="Subscribe" />
-              </form>
-            </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>
+              Get Amazed By our weekly Newsletter, get Updated About the Stuff
+            </p>
+            <form method="post">
+              <input
+                type="email"
+                placeholder="Enter Your Email address"
+                name="email" />
+              <input type="submit" name="subscribe" value="Subscribe" />
+            </form>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="container d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; Copyright
-            <strong><span> S.P. Ladda & Associates </span></strong>. All Rights
-            Reserved
-          </div>
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright
+          <strong><span> S.P. Ladda & Associates </span></strong>. All Rights
+          Reserved
         </div>
-        
       </div>
-    </footer>
+
+    </div>
+  </footer>
 
 
   <!-- End Footer -->
