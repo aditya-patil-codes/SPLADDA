@@ -160,11 +160,11 @@
             </div>
             <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <p>
-              <h6 class="fw-bold h2 " style="color: #16507b">CA Sameer Ladda</h6>
+              <h6 class="fw-bold h2 " style="color: #16507b">CA Vishal Rathi</h6>
 
 
               <p>
-              <p><b>VishalRathi</b>, a highly accomplished Fellow Chartered Accountant with an impressive track record spanning over 17 years. Alongside his extensive experience, Vishal holds a B.Com degree from the esteemed University of Pune. Additionally, he is a Qualified Independent Director certified by The Indian Institute of Corporate Affairs (IICA). Vishal's commitment to continuous learning is evident through his completion of various certificate courses, including Internal Audit and GST.
+              <p><b>Vishal Rathi</b>, a highly accomplished Fellow Chartered Accountant with an impressive track record spanning over 17 years. Alongside his extensive experience, Vishal holds a B.Com degree from the esteemed University of Pune. Additionally, he is a Qualified Independent Director certified by The Indian Institute of Corporate Affairs (IICA). Vishal's commitment to continuous learning is evident through his completion of various certificate courses, including Internal Audit and GST.
               </p>
               <p>Vishal's professional journey has taken him to numerous listed and Multinational Companies, where he gained invaluable expertise in areas such as GST, Internal Audits, Taxation, and Tax Planning. His specialization lies in providing services to a diverse clientele, including start-ups, IT and ITES companies, Multinational Companies, Multiplexes, Government Companies/Organizations, and Private Traders.
               </p>
