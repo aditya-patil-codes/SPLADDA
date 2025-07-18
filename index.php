@@ -72,13 +72,17 @@
       background-color: #fff;
       z-index: 9999;
     }
-    .team .row {
-    justify-content: center; /* Center the rows horizontally */
-  }
 
-  .team .col {
-    margin: 15px; /* Add equal spacing around each card */
-  }
+    .team .row {
+      justify-content: center;
+      /* Center the rows horizontally */
+    }
+
+    .team .col {
+      margin: 15px;
+      /* Add equal spacing around each card */
+    }
+
     .popup-close {
       position: absolute;
       top: 5px;
@@ -91,6 +95,22 @@
       font-size: 20px;
       text-align: center;
       cursor: pointer;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 10%;
+      right: 1%;
+      z-index: 10000;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      padding: 5px;
+      /* box-shadow: 0 2px 10px rgba(0,0,0,0.3); */
+    }
+
+    .whatsapp-icon {
+      width: 30px;
+      height: 30px;
     }
   </style>
   <!-- Template Main CSS File -->
@@ -129,13 +149,30 @@
     </div>
   </header>
   <!-- End Header -->
-  <div class="container">
-    <div class="popup px-3 py-3">
-      <div id="closethis" class="popup-close">&times;</div>
-      <h3>Disclaimer</h3>
-      <p>The Institute of Chartered Accountants of India does not permit advertisement or solicitation by Chartered Accountants in any form or manner. By accessing this website, you acknowledge and confirm that you are seeking information relating to S.P. Ladda & Associates of your own accord and that there has been no form of solicitation, advertisement or inducement by S.P. Ladda & Associates or its members. The content of this website is for informational purposes only and should not be interpreted as soliciting or advertisement. No material/information provided on this website should be construed as legal advice. S.P. Ladda & Associates shall not be liable for consequences of any action taken by relying on the material/information provided on this website. The contents of this website are the intellectual property of S.P. Ladda & Associates.</p>
+  <div class="modal fade" id="disclaimerModal" tabindex="-1" aria-labelledby="disclaimerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-3">
+        <div class="modal-header">
+          <h5 class="modal-title" id="disclaimerLabel">Disclaimer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            The Institute of Chartered Accountants of India does not permit advertisement or solicitation by Chartered Accountants in any form or manner. By accessing this website, you acknowledge and confirm that you are seeking information relating to S.P. Ladda & Associates of your own accord and that there has been no form of solicitation, advertisement or inducement by S.P. Ladda & Associates or its members. The content of this website is for informational purposes only and should not be interpreted as soliciting or advertisement. No material/information provided on this website should be construed as legal advice. S.P. Ladda & Associates shall not be liable for consequences of any action taken by relying on the material/information provided on this website. The contents of this website are the intellectual property of S.P. Ladda & Associates.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/918600600955"
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Chat on WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" class="whatsapp-icon">
+  </a>
+
+
   <section style="padding-bottom: 0px">
     <div id="carouselExampleInterval" class="carousel slide py-0" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -147,7 +184,7 @@
         <div style="height: 480px ; " class="carousel-item active" data-bs-interval="10000">
           <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img1.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
-            <h1 class="mt-5 display-1 fw-bolder text-capitalize pt-3">
+            <h1 class="mt-5 display-2 fw-bolder text-capitalize pt-3">
               S. P. Ladda & Associates
             </h1>
             <h2>
@@ -379,7 +416,7 @@
           <h6>Get to know the passionate individuals behind S P Ladda & Associates and our shared vision.</h6>
         </div>
 
-        <section id="about-video" class="about-video container-fluid" > 
+        <section id="about-video" class="about-video container-fluid">
           <div class="container" data-aos="fade-up">
             <div class="row">
               <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
@@ -417,11 +454,11 @@
         <div class="section-title">
           <h2>~ Our Team ~</h2>
         </div>
-    
+
         <div class="row">
           <!-- First Row -->
-          
-    
+
+
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
@@ -481,7 +518,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
@@ -496,9 +533,9 @@
               </div>
             </div>
           </div>
-         
+
         </div>
-          
+
       </div>
     </section>
     <!-- End Team Section -->
@@ -512,10 +549,10 @@
           <h2>Contact us</h2>
           <p></p>
         </div>
-       
+
         <div>
 
-        <iframe  style="border: 0; width: 100%; height: 270px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2650226467517!2d73.8722898740985!3d18.471650870668874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c01eb7f45545%3A0xccdc8a58d49e6f73!2sS.P.%20Ladda%20%26%20Associates!5e0!3m2!1sen!2sin!4v1688147997602!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe style="border: 0; width: 100%; height: 270px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2650226467517!2d73.8722898740985!3d18.471650870668874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c01eb7f45545%3A0xccdc8a58d49e6f73!2sS.P.%20Ladda%20%26%20Associates!5e0!3m2!1sen!2sin!4v1688147997602!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="row mt-5">
@@ -551,7 +588,7 @@
                   <input type="email" class="form-control email" name="email" id="email" placeholder="Your Email" required style="border-radius: 0px;" />
                 </div>
                 <div class="form-group col-12">
-                  <input type="text" class="form-control subject" name="subject" id="subject" placeholder="Subject" required style="border-radius: 0px;"/>
+                  <input type="text" class="form-control subject" name="subject" id="subject" placeholder="Subject" required style="border-radius: 0px;" />
                 </div>
                 <div class="form-group col-12">
                   <textarea class="form-control message" name="msg" rows="5" id="msg" placeholder="Message" required style="border-radius: 0px;"></textarea>
@@ -589,37 +626,37 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li>
-              <i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a>
-            </li>
-            <li>
-              <i class="bx bx-chevron-right"></i>
-              <a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a>
-            </li>
-            <li>
-              <i class="bx bx-chevron-right"></i>
-              <a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporrate Affairs</a>
-            </li>
-            <li>
-              <i class="bx bx-chevron-right"></i>
-              <a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a>
-            </li>
-            <li>
-              <i class="bx bx-chevron-right"></i>
-              <a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a>
-            </li>
-            <li>
-              <i class="bx bx-chevron-right"></i>
-              <a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a>
-            </li>
-            <li>
-              <i class="bx bx-chevron-right"></i>
-              <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a>
-            </li>
-          </ul>
-        </div>
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporrate Affairs</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a>
+              </li>
+            </ul>
+          </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
@@ -661,8 +698,7 @@
               <input
                 type="email"
                 placeholder="Enter Your Email address"
-                name="email"
-              />
+                name="email" />
               <input type="submit" name="subscribe" value="Subscribe" />
             </form>
           </div>
@@ -694,16 +730,17 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <script>
     window.addEventListener("load", function() {
-      // Check if the device screen width is greater than 600 pixels (adjust the value as needed)
-      if (window.innerWidth > 600) {
-        setTimeout(function open(event) {
-          document.querySelector(".popup").style.display = "block";
-        }, 2000);
-      }
-    });
-
-    document.querySelector("#closethis").addEventListener("click", function() {
-      document.querySelector(".popup").style.display = "none";
+      // Check screen width
+      // if (window.innerWidth > 600) {
+      // Show modal after short delay
+      setTimeout(() => {
+        const modal = new bootstrap.Modal(document.getElementById('disclaimerModal'), {
+          backdrop: 'static', // prevent click outside to close
+          keyboard: false // disable ESC key
+        });
+        modal.show();
+      }, 1000); // Delay (in ms)
+      // }
     });
   </script>
   <!-- Vendor JS Files -->
