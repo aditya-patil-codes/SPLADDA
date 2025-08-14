@@ -127,10 +127,10 @@
       <nav id="navbar" class="navbar ">
         <ul>
           <li><a class=" scrollto active" href="#hero">Home</a></li>
-          <li><a class=" scrollto" href="#about">About</a></li>
+          <li><a class=" scrollto" href="#about">About us</a></li>
           <li><a class=" scrollto" href="#services">Services</a></li>
           <li><a class=" scrollto" href="#team">Team</a></li>
-          <li><a class=" scrollto" href="#contact">Contact</a></li>
+          <li><a class=" scrollto" href="#contact">Contact us</a></li>
           <li>
             <a class=" scrollto " href="careers.php">Careers</a>
           </li>
@@ -140,7 +140,7 @@
           </li>
 
           <li></li>
-          <li><a class=" scrollto" href="login.php">Admin</a></li>
+
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -154,18 +154,21 @@
       <div class="modal-content p-3">
         <div class="modal-header">
           <h5 class="modal-title" id="disclaimerLabel">Disclaimer</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <p>
             The Institute of Chartered Accountants of India does not permit advertisement or solicitation by Chartered Accountants in any form or manner. By accessing this website, you acknowledge and confirm that you are seeking information relating to S.P. Ladda & Associates of your own accord and that there has been no form of solicitation, advertisement or inducement by S.P. Ladda & Associates or its members. The content of this website is for informational purposes only and should not be interpreted as soliciting or advertisement. No material/information provided on this website should be construed as legal advice. S.P. Ladda & Associates shall not be liable for consequences of any action taken by relying on the material/information provided on this website. The contents of this website are the intellectual property of S.P. Ladda & Associates.
           </p>
         </div>
+        <!-- <div class="modal-footer justify-content-center"> -->
+        <button type="button" class="btn btn-primary " data-bs-dismiss="modal">I Accept the Above</button>
+        <!-- </div> -->
       </div>
     </div>
   </div>
+
   <!-- WhatsApp Button -->
-  <a href="https://wa.me/918600600955"
+  <a href="https://wa.me/919850838461"
     class="whatsapp-float"
     target="_blank"
     aria-label="Chat on WhatsApp">
@@ -250,10 +253,12 @@
           <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box " style="border: solid black 1px;">
               <img src="servicesIcon/search.png" alt="" />
-              <h4><a href="serviceDetail.php">Audit and Assurance</a></h4>
+              <h4><a href="serviceDetail.php">Assurance and Audit</a></h4>
               <h6>
-                <a style="color: #444444;" href="serviceDetail.php">We adeptly unravel intricate financial and accounting challenges
-                  with precision and expertise.</a>
+                <a style="color: #444444;" href="serviceDetail.php">Building trust through independent evaluation.
+
+                  To guarantee openness, compliance, and operational effectiveness, we offer statutory audits, internal audits, tax audits, Bank Audits, Concurrent Audits and special purpose audits.
+                </a>
               </h6>
             </div>
           </div>
@@ -263,8 +268,10 @@
           <div class="icon-box " style="border: solid black 1px;">
             <img src="servicesIcon/taxation.png" alt="" />
             <h4><a href="serviceDetail.php">Direct Taxation</a></h4>
-            <h6><a style="color: #444444;" href="serviceDetail.php">As tax regulations in India continue to evolve, staying
-                compliant can be a challenge for businesses.</a>
+            <h6><a style="color: #444444;" href="serviceDetail.php">Ensure full compliance while optimizing your tax position.
+
+                For both individuals and enterprises, we provide full-service income tax planning, filing, representation before tax authorities, TDS compliance, and strategic tax structuring advising.
+              </a>
 
             </h6>
           </div>
@@ -274,38 +281,65 @@
           <div class="icon-box " style="border: solid black 1px;">
             <img src="servicesIcon/taxation (1).png" alt="" />
             <h4><a href="serviceDetail.php">Indirect Taxation</a></h4>
-            <h6> <a style="color: #444444;" href="serviceDetail.php"> We provide complete assistance for businesses with all their
-                indirect tax-related needs and challenges.</a>
+            <h6> <a style="color: #444444;" href="serviceDetail.php"> Stay ahead with expert GST and other indirect tax solutions.
+
+                Input credit management, GST registration, filing, audits, compliance checks, and support for departmental evaluations and litigation are all handled by our staff.
+
+              </a>
 
             </h6>
           </div>
         </div>
 
-        <div style="cursor: pointer" class="d-flex justify-content-center row text-center align-items-center pt-2">
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex mt-5 mx-4" data-aos="zoom-in" data-aos-delay="100">
+      </div>
+      <div class="row pt-2">
+        <a href="serviceDetail.php">
+          <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box " style="border: solid black 1px;">
               <img src="servicesIcon/talk.png" alt="" />
-              <h4><a href="serviceDetail.php">Management and Accounting Consultancy</a></h4>
-              <h6> <a style="color: #444444;" href="serviceDetail.php"> We offer end-to-end support for finance departments, from
-                  formation to financial statements and compliant information.</a>
+              <h4><a href="serviceDetail.php">Accounting and Management Consulting</a></h4>
+              <h6>
+                <a style="color: #444444;" href="serviceDetail.php">Empowering your decisions with financial clarity.
 
+                  We assist companies in making data-driven decisions and effectively managing their resources, from forecasting and budgeting to MIS reporting and internal controls.
+
+                </a>
               </h6>
             </div>
           </div>
+        </a>
 
-          <div style="cursor: pointer" class="col-lg-4 col-md-6 col-sm-12 d-flex mt-5 pt-2" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box " style="border: solid black 1px;">
-              <img src="servicesIcon/public-service.png" alt="" />
-              <h4><a href="serviceDetail.php">Business Support Service</a></h4>
-              <h6> <a style="color: #444444;" href="serviceDetail.php">Our experienced team offers diverse professional services to
-                  streamline operations, enhance efficiency, and strengthen core
-                  competencies.
-              </h6></a>
+        <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box " style="border: solid black 1px;">
+            <img src="servicesIcon/public-service.png" alt="" />
+            <h4><a href="serviceDetail.php">Business Support Services</a></h4>
+            <h6><a style="color: #444444;" href="serviceDetail.php">Streamlined back-office solutions for growing businesses.
 
-            </div>
+                For seamless operations, we help with business creation, payroll processing, ROC compliance, secretarial support, strategy planning, Project financing and end-to-end financial paperwork.
+
+              </a>
+
+            </h6>
           </div>
         </div>
+
+        <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box " style="border: solid black 1px;">
+            <img src="servicesIcon/consultant.png" alt="" />
+            <h4><a href="serviceDetail.php">Advisory Services</a></h4>
+            <h6> <a style="color: #444444;" href="serviceDetail.php">Strategic insights that guide smarter business decisions.
+
+                We offer professional advice on due diligence, mergers and acquisitions, demergers, business valuation, and fund management for startups, ensuring informed decisions and adherence to regulations at every stage.
+
+
+              </a>
+
+            </h6>
+          </div>
+        </div>
+
       </div>
+    </div>
     </div>
   </section>
   <!-- new industries  -->
@@ -378,6 +412,62 @@
               </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container d-flex flex-wrap justify-content-center">
+              <div class="card col-md-4 col-lg-3 col-sm-12 mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
+                <div class="p-0">
+                  <img src="expIcons/manufacture.jpeg" class="card-img-top " style=" object-fit: contain" alt="IT and software industry" />
+                </div>
+                <div class="card-footer bg-white">
+                  <h5 class="card-title">Manufacturing - Engineering, OEMs, chemicals</h5>
+                </div>
+              </div>
+              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-md-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
+                <div class=" p-0">
+                  <img src="expIcons/hsocieties.jpeg" class="card-img-top " style=" object-fit: contain" alt="Health Care" />
+                </div>
+                <div class="card-footer bg-white">
+                  <h5 class="card-title">Housing Societies </h5>
+                </div>
+              </div>
+              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-lg-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
+                <div class=" p-0">
+                  <img src="expIcons/education.jpeg" class="card-img-top " style=" object-fit: contain" alt="Multinational Companies" />
+                </div>
+                <div class="card-footer bg-white">
+                  <h5 class="card-title">Educational Sector </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container d-flex flex-wrap justify-content-center">
+              <div class="card col-md-4 col-lg-3 col-sm-12 mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
+                <div class="p-0">
+                  <img src="expIcons/charity.webp" class="card-img-top " style=" object-fit: contain" alt="IT and software industry" />
+                </div>
+                <div class="card-footer bg-white">
+                  <h5 class="card-title">Charitable Trusts</h5>
+                </div>
+              </div>
+              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-md-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
+                <div class=" p-0">
+                  <img src="expIcons/hospitaliy.jpeg" class="card-img-top " style=" object-fit: contain" alt="Health Care" />
+                </div>
+                <div class="card-footer bg-white">
+                  <h5 class="card-title">Hospitality </h5>
+                </div>
+              </div>
+              <!-- <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-lg-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
+                <div class=" p-0">
+                  <img src="expIcons/MNC.jpg" class="card-img-top " style=" object-fit: contain" alt="Multinational Companies" />
+                </div>
+                <div class="card-footer bg-white">
+                  <h5 class="card-title">add one more</h5>
+                </div>
+              </div> -->
+            </div>
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -420,13 +510,18 @@
           <div class="container" data-aos="fade-up">
             <div class="row">
               <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-                <img src="assets/img/Aboutus.jpeg" style="height: max-content;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" class="img-fluid" alt="" />
+                <img src="assets/img/team_home.jpg" style="height: max-content;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" class="img-fluid" alt="" />
               </div>
               <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                 <p class="h6 px-2" style="line-height: 1.5rem;">
-                  <span class="fw-bold h5 " style="color: #023C6C;">S. P. Ladda and Associates</span> is a well-established Chartered Accountancy Firm located in Pune. Since our inception in 2010, we have built a strong reputation for delivering exceptional professional services. Our comprehensive range of offerings includes <b style="color:#023C6C ;">Audit and Assurance, Direct and Indirect Consultancy, Business Support Services, and Management and Accounting Consultancy</b>.
-                  <br><br>
-                  What sets us apart, is our team of dedicated and experienced professionals. With their expertise, we consistently provide reliable information and offer optimal solutions to our diverse clientele, enabling them to make informed decisions and meet regulatory requirements with ease.
+                  <span class="fw-bold h5 " style="color: #023C6C;">S. P. Ladda and Associates</span> is a well-established Chartered Accountancy firm based in Pune. Since our inception in 2010, we have built a strong reputation for delivering reliable, high-quality professional services across various sectors.
+                  Over the years, we have expanded our presence with two additional branches one in Mumbai and another in Baner, Pune to better serve our growing clientele.
+                  <br>
+                  <u>Our comprehensive range of services includes:</u>
+                  <br>
+                  <b style="color:#023C6C ;">Audit & Assurance, Direct and Indirect Taxation, Consulting, Business Support Services, Advisory services and Management & Accounting consultancy.</b>.
+                  <br>
+                  What sets us apart is our dedicated team of experienced professionals. With deep technical expertise and a client-centric approach, we provide insightful, practical solutions that help businesses stay compliant, make informed decisions, and achieve sustainable growth.
 
                 </p>
 
@@ -533,6 +628,20 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <a href="kiranshah.php"><img src="assets/img/testimonials/caKiran.jpg" class="img-fluid" alt="" /></a>
+                <div class="social">
+                  <a><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>CA Kiran Shah</h4>
+                <span>Partner</span>
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -617,88 +726,63 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>S.P. Ladda & Associates</h3>
             <p>
-              104-105 Ganga Collidium<br />
-              Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra
-              411037 <br /><br />
-              <strong>Phone:</strong> 020-24244200 <br />
-              <strong>Email:</strong> caladdaclient@gmail.com <br />
+            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-3">
+              <strong>Primary</strong>
+            </div>
+            104-105 Ganga Collidium<br />
+            Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra 411037 <br /><br />
+
             </p>
+
+            <h5>Other Locations</h5>
+            <p>
+
+              <strong>Baner Office:</strong><br />
+              Row House no.7, Samruddhi Row Houses,<br />
+              Kalamkar Park Road, Opp Park Marina Society,<br />
+              Balewadi Phata, Baner, Pune, 411045, IN<br />
+              <a href="https://www.google.com/maps?q=Samruddhi+Row+Houses,+Baner,+Pune+411045" target="_blank">Get directions</a><br /><br />
+
+              <strong>Mumbai Office:</strong><br />
+              C/o Mrs. Aarti Vishal Rathi, Gala No.230,<br />
+              Blue Rose Industrial Estate, Near Metro Mall,<br />
+              Borivali East, Mumbai, 400006, IN<br />
+              <a href="https://www.google.com/maps?q=Blue+Rose+Industrial+Estate,+Borivali+East,+Mumbai+400006" target="_blank">Get directions</a>
+            </p>
+
           </div>
 
+          <!-- Remaining footer columns unchanged -->
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporrate Affairs</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a>
-              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporate Affairs</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a>Attestation</a></li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Risk Management</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Management Consultancy</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Business Support Services</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Taxation</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Indirect Taxation </a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Company Law </a>
-              </li>
+              <li><i class="bx bx-chevron-right"></i> Assurance and Audit</li>
+              <li><i class="bx bx-chevron-right"></i>Direct Taxation</li>
+              <li><i class="bx bx-chevron-right"></i>Indirect Taxation</li>
+              <li><i class="bx bx-chevron-right"></i>Accounting and Management Consultings</li>
+              <li><i class="bx bx-chevron-right"></i>Business Support Services</li>
+              <li><i class="bx bx-chevron-right"></i>Advisory Services</li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
-            <p>
-              Get Amazed By our weekly Newsletter, get Updated About the Stuff
-            </p>
+            <p>Get Amazed By our weekly Newsletter, get Updated About the Stuff</p>
             <form method="post">
-              <input
-                type="email"
-                placeholder="Enter Your Email address"
-                name="email" />
+              <input type="email" placeholder="Enter Your Email address" name="email" />
               <input type="submit" name="subscribe" value="Subscribe" />
             </form>
           </div>
@@ -709,17 +793,16 @@
     <div class="container d-md-flex py-4">
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright
-          <strong><span> S.P. Ladda & Associates </span></strong>. All Rights
-          Reserved
+          &copy; <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <strong><span>S.P. Ladda & Associates</span></strong>. All Rights Reserved.
         </div>
+
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+        <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </footer>

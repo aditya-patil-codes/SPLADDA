@@ -60,10 +60,10 @@
             <nav id="navbar" class="navbar ">
                 <ul>
                     <li><a class=" scrollto active" href="./">Home</a></li>
-                    <li><a class=" scrollto" href="./#about">About</a></li>
+                    <li><a class=" scrollto" href="./#about">About us</a></li>
                     <li><a class=" scrollto" href="./#services">Services</a></li>
                     <li><a class=" scrollto" href="./#team">Team</a></li>
-                    <li><a class=" scrollto" href="./#contact">Contact</a></li>
+                    <li><a class=" scrollto" href="./#contact">Contact us</a></li>
                     <li>
                         <a class=" scrollto " href="careers.php">Careers</a>
                     </li>
@@ -73,7 +73,7 @@
                     </li>
 
                     <li></li>
-                    <li><a class=" scrollto" href="login.php">Admin</a></li>
+
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -83,7 +83,7 @@
     </header>
     <!-- End Header -->
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/918600600955"
+    <a href="https://wa.me/919850838461"
         class="whatsapp-float"
         target="_blank"
         aria-label="Chat on WhatsApp">
@@ -176,88 +176,8 @@
     </main>
     <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <!-- <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>S.P. Ladda & Associates</h3>
-                        <p>
-                            104-105 Ganga Collidium<br />
-                            Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra
-                            411037 <br /><br />
-                            <strong>Phone:</strong> 0000000000 <br />
-                            <strong>Email:</strong> spladdha@gmail.com <br />
-                        </p>
-                    </div>
 
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li>
-                                <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a>Service1</a></li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a>Service2</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a>Service3</a>
-                            </li>
-                            <li><i class="bx bx-chevron-right"></i> <a>Service4</a></li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a>Service5</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-newsletter">
-                        <h4>Join Our Newsletter</h4>
-                        <p>
-                            Get Amazed By our weekly Newsletter, get Updated About the Stuff
-                        </p>
-                        <form action="" method="post">
-                            <input type="email" name="email" /><input type="submit" value="Subscribe" />
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container d-md-flex py-4">
-            <div class="me-md-auto text-center text-md-start">
-                <div class="copyright">
-                    &copy; Copyright
-                    <strong><span> S.P. Ladda & Associates </span></strong>. All Rights
-                    Reserved
-                </div>
-            </div>
-            <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-        </div>
-    </footer> -->
-    <!-- End Footer -->
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

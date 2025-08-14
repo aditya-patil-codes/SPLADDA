@@ -70,10 +70,10 @@ if (empty($_SESSION['username'])) {
             <nav id="navbar" class="navbar ">
                 <ul>
                     <li><a class=" scrollto active" href="./">Home</a></li>
-                    <li><a class=" scrollto" href="./#about">About</a></li>
+                    <li><a class=" scrollto" href="./#about">About us</a></li>
                     <li><a class=" scrollto" href="./#services">Services</a></li>
                     <li><a class=" scrollto" href="./#team">Team</a></li>
-                    <li><a class=" scrollto" href="./#contact">Contact</a></li>
+                    <li><a class=" scrollto" href="./#contact">Contact us</a></li>
                     <li>
                         <a class=" scrollto " href="careers.php">Careers</a>
                     </li>
@@ -95,7 +95,7 @@ if (empty($_SESSION['username'])) {
     </header>
     <!-- End Header -->
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/918600600955"
+    <a href="https://wa.me/919850838461"
         class="whatsapp-float"
         target="_blank"
         aria-label="Chat on WhatsApp">
