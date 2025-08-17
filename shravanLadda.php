@@ -71,10 +71,10 @@
       <nav id="navbar" class="navbar ">
         <ul>
           <li><a class=" scrollto active" href="./">Home</a></li>
-          <li><a class=" scrollto" href="./#about">About</a></li>
+          <li><a class=" scrollto" href="./#about">About us</a></li>
           <li><a class=" scrollto" href="./#services">Services</a></li>
           <li><a class=" scrollto" href="./#team">Team</a></li>
-          <li><a class=" scrollto" href="./#contact">Contact</a></li>
+          <li><a class=" scrollto" href="./#contact">Contact us</a></li>
           <li>
             <a class=" scrollto " href="careers.php">Careers</a>
           </li>
@@ -84,7 +84,7 @@
           </li>
 
           <li></li>
-          <li><a class=" scrollto" href="login.php">Admin</a></li>
+
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -93,34 +93,38 @@
     </div>
   </header>
   <!-- WhatsApp Button -->
-  <a href="https://wa.me/918600600955"
+  <a href="https://wa.me/919850838461"
     class="whatsapp-float"
     target="_blank"
     aria-label="Chat on WhatsApp">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" class="whatsapp-icon">
   </a>
-  <!-- <section
-      id="breadcrumbs"
-      class="breadcrumbs mb-0"
-      style="padding-top: 0px !"
-    >
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2 class="fw-bold" style="color: #16507b">Sameer Ladda</h2>
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>Sameer Ladda</li>
-          </ol>
+
+  <section style="padding-bottom: 0px">
+    <div id="carouselExampleInterval" class="carousel slide py-0" data-bs-ride="carousel">
+      <div class="carousel-indicators"></div>
+      <div class="carousel-inner">
+        <div style="height: 20vh; background-color: #f0f0f086" class="carousel-item active">
+          <!-- <img
+                style="height: 100%; object-fit: cover; filter: brightness(0.3)"
+                src="carosalImg/img3.jpg"
+                class="d-block w-100"
+                alt="..."
+              /> -->
+          <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="display-5 fw-bold" style="color: #16507b">
+              ~ Our Leadership ~
+            </h2>
+
+          </div>
         </div>
       </div>
-    </section> -->
+    </div>
+  </section>
 
-  <!-- sameerLadda -->
-
-
-  <section id="" class="about pt-5 pb-2 section-bg">
+  <section id="" class="about pt-1 pb-2 section-bg">
     <div class="container " data-aos="fade-up">
-      <section id="about-video" class="about-video container-fluid">
+      <section id="about-video" class="about-video container-fluid pt-3">
         <div class="container" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
@@ -163,7 +167,7 @@
               <p>Having previously worked as a Financial Controller at a Multinational Investment Bank and gained valuable experience as an Industrial Trainee. He has a diverse background in Transfer Pricing, Forex Hedging, Bookkeeping, and Financial Statement Preparation under various Accounting Standards, as well as Direct Taxation.
 
               </p>
-              <p> Shravan specializes in Company Audit, Internal Audit, Direct Taxation, Tax Planning, and Bookkeeping. His expertise enables him to provide tailored solutions to his clients, empowering them to achieve their financial goals.
+              <p>Shravan specializes in Virtual CFO Services, Government Accounting and Consulting, Company Audit, Direct Taxation, Tax Planning and Advisory.
 
               </p>
               <p>In his pursuit of excellence, He is committed to staying at the forefront of technological advancements. He proactively updates himself, his firm, and his clients with the latest tools and trends, ensuring they benefit from the advantages technology has to offer.
@@ -202,88 +206,63 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>S.P. Ladda & Associates</h3>
             <p>
-              104-105 Ganga Collidium<br />
-              Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra
-              411037 <br /><br />
-              <strong>Phone:</strong> 020-24244200 <br />
-              <strong>Email:</strong> caladdaclient@gmail.com <br />
+            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-2">
+              <strong>Primary</strong>
+            </div>
+            104-105 Ganga Collidium<br />
+            Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra 411037 <br /><br />
+
             </p>
+
+            <h5>Other Locations</h5>
+            <p>
+
+              <strong>Baner Office:</strong><br />
+              Row House no.7, Samruddhi Row Houses,<br />
+              Kalamkar Park Road, Opp Park Marina Society,<br />
+              Balewadi Phata, Baner, Pune, 411045, IN<br />
+              <a href="https://www.google.com/maps?q=Samruddhi+Row+Houses,+Baner,+Pune+411045" target="_blank">Get directions</a><br /><br />
+
+              <strong>Mumbai Office:</strong><br />
+              C/o Mrs. Aarti Vishal Rathi, Gala No.230,<br />
+              Blue Rose Industrial Estate, Near Metro Mall,<br />
+              Borivali East, Mumbai, 400006, IN<br />
+              <a href="https://www.google.com/maps?q=Blue+Rose+Industrial+Estate,+Borivali+East,+Mumbai+400006" target="_blank">Get directions</a>
+            </p>
+
           </div>
 
+          <!-- Remaining footer columns unchanged -->
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporrate Affairs</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a>
-              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporate Affairs</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a>Attestation</a></li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Risk Management</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Management Consultancy</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Business Support Services</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Taxation</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Indirect Taxation </a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i>
-                <a>Company Law </a>
-              </li>
+              <li><i class="bx bx-chevron-right"></i> Assurance and Audit</li>
+              <li><i class="bx bx-chevron-right"></i>Direct Taxation</li>
+              <li><i class="bx bx-chevron-right"></i>Indirect Taxation</li>
+              <li><i class="bx bx-chevron-right"></i>Accounting and Management Consultings</li>
+              <li><i class="bx bx-chevron-right"></i>Business Support Services</li>
+              <li><i class="bx bx-chevron-right"></i>Advisory Services</li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
-            <p>
-              Get Amazed By our weekly Newsletter, get Updated About the Stuff
-            </p>
+            <p>Get Amazed By our weekly Newsletter, get Updated About the Stuff</p>
             <form method="post">
-              <input
-                type="email"
-                placeholder="Enter Your Email address"
-                name="email" />
+              <input type="email" placeholder="Enter Your Email address" name="email" />
               <input type="submit" name="subscribe" value="Subscribe" />
             </form>
           </div>
@@ -294,12 +273,16 @@
     <div class="container d-md-flex py-4">
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright
-          <strong><span> S.P. Ladda & Associates </span></strong>. All Rights
-          Reserved
+          &copy; <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <strong><span>S.P. Ladda & Associates</span></strong>. All Rights Reserved.
         </div>
       </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
 
+        <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
     </div>
   </footer>
 

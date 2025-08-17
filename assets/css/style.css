@@ -585,10 +585,10 @@ section {
   padding: 0;
 }
 
-.about .content ul li {
+/* .about .content ul li {
   padding-left: 28px;
   position: relative;
-}
+} */
 
 .about .content ul li+li {
   margin-top: 10px;
@@ -703,11 +703,11 @@ section {
   padding: 0;
 }
 
-.about-video .content ul li {
+/* .about-video .content ul li {
   padding-bottom: 10px;
   padding-left: 28px;
   position: relative;
-}
+} */
 
 .about-video .content ul i {
   font-size: 24px;
