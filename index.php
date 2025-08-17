@@ -182,7 +182,10 @@
         <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
+
       <div class="carousel-inner">
         <div style="height: 480px ; " class="carousel-item active" data-bs-interval="10000">
           <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img1.jpg" class="d-block w-100" alt="..." />
@@ -220,6 +223,30 @@
             <h2>Explore Oppourtunities at S. P. Ladda & Associates.</h2>
             <div class="text-center">
               <a href="careers.php" class="btn btn-primary scrollto px-4 py-2 fs-5 mt-5">Apply Now !</a>
+            </div>
+          </div>
+        </div>
+        <div style="height: 480px" class="carousel-item">
+          <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="mt-5 display-3 fw-bolder text-capitalize pt-5">
+              Trusted Financial Partners for Your Growth
+            </h1>
+            <!-- <h2>Explore Oppourtunities at S. P. Ladda & Associates.</h2> -->
+            <div class="text-center">
+
+            </div>
+          </div>
+        </div>
+        <div style="height: 480px" class="carousel-item">
+          <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="mt-5 display-3 fw-bolder text-capitalize pt-5">
+              Simplifying Compliance, Empowering Business
+            </h1>
+            <!-- <h2>Explore Oppourtunities at S. P. Ladda & Associates.</h2> -->
+            <div class="text-center">
+
             </div>
           </div>
         </div>
@@ -568,37 +595,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <a href="suchitrawarudkar.php"><img src="assets/img/testimonials/fo44.jpg" class="img-fluid" alt="" /></a>
-                <div class="social">
-                  <a><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>CA Suchitra Warudkar</h4>
-                <span>Partner</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <a href="shravanLadda.php"><img src="assets/img/testimonials/fo33.jpg" class="img-fluid" alt="" /></a>
-                <div class="social">
-                  <a><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>CA Shravan Ladda</h4>
-                <span>Partner</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Second Row -->
+
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
@@ -617,17 +614,37 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <a href="kalpaLadda.php"><img src="assets/img/testimonials/fo5.jpg" class="img-fluid" alt="" /></a>
+                <a href="suchitrawarudkar.php"><img src="assets/img/team/CASWPP.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>CS Kalpa Ladda</h4>
-                <span>Company Secretary</span>
+                <h4>CA Suchitra Warudkar</h4>
+                <span>Partner</span>
               </div>
             </div>
           </div>
+
+        </div>
+        <div class="row">
+          <!-- Second Row -->
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <a href="shravanLadda.php"><img src="assets/img/testimonials/fo33.jpg" class="img-fluid" alt="" /></a>
+                <div class="social">
+                  <a><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>CA Shravan Ladda</h4>
+                <span>Partner</span>
+              </div>
+            </div>
+          </div>
+
+ 
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
@@ -639,6 +656,21 @@
               <div class="member-info">
                 <h4>CA Kiran Shah</h4>
                 <span>Partner</span>
+              </div>
+            </div>
+          </div>
+
+                   <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <a href="kalpaLadda.php"><img src="assets/img/testimonials/fo5.jpg" class="img-fluid" alt="" /></a>
+                <div class="social">
+                  <a><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>CS Kalpa Ladda</h4>
+                <span>Company Secretary</span>
               </div>
             </div>
           </div>

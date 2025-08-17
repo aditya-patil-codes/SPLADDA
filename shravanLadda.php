@@ -167,7 +167,7 @@
               <p>Having previously worked as a Financial Controller at a Multinational Investment Bank and gained valuable experience as an Industrial Trainee. He has a diverse background in Transfer Pricing, Forex Hedging, Bookkeeping, and Financial Statement Preparation under various Accounting Standards, as well as Direct Taxation.
 
               </p>
-              <p> Shravan specializes in Company Audit, Internal Audit, Direct Taxation, Tax Planning, and Bookkeeping. His expertise enables him to provide tailored solutions to his clients, empowering them to achieve their financial goals.
+              <p>Shravan specializes in Virtual CFO Services, Government Accounting and Consulting, Company Audit, Direct Taxation, Tax Planning and Advisory.
 
               </p>
               <p>In his pursuit of excellence, He is committed to staying at the forefront of technological advancements. He proactively updates himself, his firm, and his clients with the latest tools and trends, ensuring they benefit from the advantages technology has to offer.

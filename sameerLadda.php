@@ -171,12 +171,27 @@
 
 
               <p>
-              <p><b>Sameer</b> is a brilliant academic hailing from Barshi, Dist. Solapur. With an impressive academic background, holding an M.Com degree and being a Fellow Chartered Accountant (FCA), Sameer has a strong foundation in the field of finance. Moreover, he has pursued post-qualification courses in Valuation, Co-operative, PMLA, Public Finance and Government Accounting, MSME, Startup, and more through ICAI. He has also successfully completed the Independent Director examination.</p>
-              <p>Known for his exceptional leadership skills, extensive network, effective entrepreneurship, and quick grasp of any business structure, Sameer brings a wealth of expertise to the table. Having experienced life in both rural and urban areas of Maharashtra, he possesses a deep understanding of the challenges and solutions specific to these environments.</p>
-              <p> Sameer's leadership qualities and networking abilities have been further strengthened through his roles as Secretary, Treasurer, WICASA Chairman, Vice Chairman, and Chairman of the Pune Branch of ICAI. He has also held prominent positions in various social organizations. These experiences have shaped his exceptional leadership skills and expanded his network. </p>
+              <p><b>CA Sameer Ladda</b> CA Sameer Ladda is a seasoned Chartered Accountant with over 25 years of experience in the fields of audit, taxation, project finance, and business advisory. A native of Barshi, District Solapur, he holds an M.Com degree and is a Fellow Chartered Accountant (FCA). He is also a certified Independent Director and has completed several post-qualification courses in Valuation, Co-operative Sector, PMLA, Public Finance, Government Accounting, MSME, Startup, and AI etc.
+              </p>
+
+              <p> CA Sameer is known for his sharp business insight, strategic planning abilities, and strong network across Maharashtra. He works closely with clients not just as a service provider but as a business advisor and aggregator, offering tailored solutions across various industries.
+              </p>
               <p>
-                Sameer embarked on his career as a Tax Consultant in 2000 and established his own CA firm in 2009. Over the years, the firm has grown steadily and now comprises five CA partners, one CS partner, and a dedicated team of 20 professionals. Sameer's mastery extends across multiple domains, including Audit, Project Finance, Direct Taxation, Complete Business Solutions, and liaising.</p>
+                In his leadership journey, he has served as Secretary, Treasurer, WICASA Chairman, Vice Chairman, and Chairman of the Pune Branch of ICAI. His leadership has extended into multiple social and professional forums, helping shape collaborative and forward-thinking ecosystems.
+              </p>
+
+              <p>
+                Under his leadership, S.P. Ladda and Associates has grown steadily since its founding in 2009. The firm now comprises five CA partners, one CS partner, and a dedicated team of 20 professionals. The firm’s practice areas include Audit, Income Tax, Project Finance, Business Consulting, Direct Taxation, and complete business solutions.
+              </p>
+              <p>
+                CA Sameer has successfully worked with diverse sectors such as <strong>Entertainment and Media, Infrastructure and Contractors, Government and Education, Banks (Nationalized & Co-operative), Housing and Credit Societies, SMEs and Startups, as well as Traders, Manufacturers, and Service Providers.</strong>
+              </p>
               <p>As the backbone and pillar of the firm, Sameer embodies the principle of <b>"सबका साथ सबका विकास"</b> (Together We Grow). He believes in fostering growth together with clients, partners, and teammates.</p>
+
+              <p>
+                He lives by the motto:
+                “Fight every battle until you win.”
+              </p>
 
 
 

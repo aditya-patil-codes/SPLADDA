@@ -199,7 +199,7 @@
                 </ul>
               </div>
               <p>
-              <p>In her audit practice, Suchitra has led engagements with nationalized banks, multi-state co-operative institutions, government undertakings, and SMEs, demonstrating a keen understanding of regulatory frameworks and internal controls.
+              <p>An articulate professional and effective communicator, she also contributes as a GST faculty at the Institute of Taxation & Accounting Professionals (ITAP), helping shape the next generation of tax professionals.
               </p>
 
               </p>

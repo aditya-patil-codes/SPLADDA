@@ -140,7 +140,7 @@
         <div class="container" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-              <img src="serviceImg/1.jpg" style="height: max-content" class="img-fluid px-5" alt="" />
+              <img src="serviceImg/auditnew.jpeg" style="height: max-content" class="img-fluid px-5" alt="" />
             </div>
             <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <p>
@@ -196,7 +196,7 @@
               </p>
             </div>
             <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-              <img src="serviceImg/2.jpg" style="height: max-content" class="img-fluid px-5" alt="" />
+              <img src="serviceImg/directTax.jpg" style="height: max-content" class="img-fluid px-5" alt="" />
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@
         <div class="container" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-              <img src="serviceImg/3.jpg" style="height: max-content" class="img-fluid px-5" alt="" />
+              <img src="serviceImg/indirectTax.jpeg" style="height: max-content" class="img-fluid px-5" alt="" />
             </div>
             <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <p>
@@ -322,7 +322,7 @@
     </div>
   </section>
 
-  <section id="" class="about pt-2 pb-2">
+  <section id="" class="about pt-2 pb-2 section-bg">
     <div class="container" data-aos="fade-up">
       <section id="about-video" class="about-video container-fluid">
         <div class="container" data-aos="fade-up">
@@ -346,7 +346,7 @@
 
             </div>
             <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-              <img src="serviceImg/1.jpg" style="height: max-content" class="img-fluid px-5" alt="" />
+              <img src="serviceImg/advisory.jpeg" style="height: max-content" class="img-fluid px-5" alt="" />
             </div>
           </div>
         </div>

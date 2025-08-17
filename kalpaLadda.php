@@ -136,7 +136,7 @@
                     Education:
                   </b>
                   <ul class="  pt-2">
-                    <li class=" pb-2">Bachlor of Commerse</li>
+                    <li class=" pb-2">Master of Commerse</li>
                     <li class=" pb-2 ">Company Secretary</li>
 
 
@@ -164,15 +164,20 @@
             <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <p>
               <h6 class="fw-bold h2 " style="color: #16507b">CS Kalpa Ladda</h6>
-              <p><b>Kalpa</b> is accomplished Company Secretary based in Pune, renowned for her expertise in the field of Company Law. Armed with a distinguished commerce degree from the prestigious University of Pune, Kalpa specializes in a wide array of services. Her extensive knowledge encompasses Company Registration/Strike Off consulting, Company Law & Secretarial Compliance, Securities Laws & Compliances, Legal Document Management, Due Diligence, Corporate Compliance, Audits & Certifications, and the formation of diverse entities including Private Limited, One Person Company (OPC), Section 8, Limited Companies, and Associations.
+              <p><b>CS Kalpa Ladda</b> is an accomplished Company Secretary based in Pune, renowned for her expertise in Company Law and a wide spectrum of corporate legal services. With a strong academic background in commerce from the University of Pune, she offers specialized services in Company Registration/Strike Off consulting, Secretarial Compliance, Securities Law, Legal Documentation, Corporate Due Diligence, and the formation of various entities including Private Limited Companies, One Person Companies (OPCs), Section 8 Companies, and other associations.
 
               </p>
-              <p>Her extensive knowledge encompasses Company Registration/Strike Off consulting, Company Law & Secretarial Compliance, Securities Laws & Compliances, Legal Document Management, Due Diligence, Corporate Compliance, Audits & Certifications, and the formation of diverse entities including Private Limited, One Person Company (OPC), Section 8, Limited Companies, and Associations.
+              <p>With over 8 years of professional experience in corporate legal advisory and governance, she has successfully guided businesses through complex regulatory frameworks with clarity and precision. Her key areas of strength include secretarial audits, annual ROC filings, drafting of resolutions and shareholder agreements, and advisory on matters under the Companies Act, 2013. She is also well-versed in FEMA compliance and LLP governance.
+
 
 
               </p>
-              <p>Kalpa's proficiency also extends to LLP Registration & Compliance, General Corporate Advisory, Trademark matters, Share Transfer and Transmission, IEPF refund (Physical to Demat), IEC and ICE GATE Registration, and various Business Registration & Licensing solutions. With a commitment to providing comprehensive and reliable services, Kalpa Ladda is your trusted partner for all your corporate and legal needs.
+              <p>In addition, Kalpa provides end-to-end services in LLP Registration & Compliance, Trademark advisory, Share Transfer & Transmission, IEC and ICE GATE Registration, and various Business Registration and Licensing solutions. Working in close coordination with audit, tax, and finance teams, she ensures seamless acompliance solutions tailored to client-specific needs.
 
+
+              </p>
+              <p>
+                Her in-depth legal knowledge, attention to detail, and commitment to corporate governance make her a trusted advisor for startups, MSMEs, and corporates alike.
               </p>
 
 

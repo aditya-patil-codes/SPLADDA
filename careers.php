@@ -238,7 +238,7 @@
                       <div class="text pl-3">
                         <p>
                           <span>Phone:</span>
-                          <a href="tel://1234567920">020-24244200</a>
+                          <a href="tel://1234567920">+919850838461</a>
                         </p>
                       </div>
                     </div>
@@ -269,12 +269,12 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
-      <div class="container">
+      <div class="" style="padding-left:3% ; padding-right:4%" >
         <div class="row">
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>S.P. Ladda & Associates</h3>
             <p>
-            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-2">
+            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-3">
               <strong>Primary</strong>
             </div>
             104-105 Ganga Collidium<br />
@@ -338,7 +338,7 @@
       </div>
     </div>
 
-    <div class="container d-md-flex py-4">
+    <div style="padding-left:3% ; padding-right:4%" class=" d-md-flex py-4">
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
           &copy; <script>
@@ -346,6 +346,7 @@
           </script>
           <strong><span>S.P. Ladda & Associates</span></strong>. All Rights Reserved.
         </div>
+
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
 

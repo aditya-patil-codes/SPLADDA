@@ -136,8 +136,10 @@
                                         Education:
                                     </b>
                                     <ul class="  pt-2">
-                                        <li class=" pb-2">Bachlor of Commerse</li>
-                                        <li class=" pb-2 ">Company Secretary</li>
+                                        <li class=" pb-2">Chartered Accountant (CA) – ICAI
+                                        </li>
+                                        <li class=" pb-2 ">Bachelor of Law (LL.B.)</li>
+                                        <li class=" pb-2 ">B.Com (Accounts & Costing)</li>
 
 
 
@@ -148,11 +150,11 @@
                                         Area of Expertise:
                                     </b>
                                     <ul class="   pt-2">
-                                        <li class=" pb-2">Legal Document Management</li>
-                                        <li class=" pb-2">Corporate Compliance</li>
-                                        <li class=" pb-2">Audits and Certifications</li>
-                                        <li class=" pb-2">General Corporate Advisory</li>
-                                        <li class=" pb-2">Company Registration and Strike Off consulting</li>
+                                        <li class=" pb-2">Internal & Statutory Audits</li>
+                                        <li class=" pb-2">Direct & Indirect Taxation</li>
+                                        <li class=" pb-2">Project Finance Reviews & Due Diligence</li>
+                                        <li class=" pb-2">Trust & NGO Audits</li>
+                                        <li class=" pb-2">Financial–Legal Integration</li>
 
 
                                     </ul>
@@ -164,15 +166,25 @@
                         <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                             <p>
                             <h6 class="fw-bold h2 " style="color: #16507b">CA Kiran Shah</h6>
-                            <p><b>Kalpa</b> is accomplished Company Secretary based in Pune, renowned for her expertise in the field of Company Law. Armed with a distinguished commerce degree from the prestigious University of Pune, Kalpa specializes in a wide array of services. Her extensive knowledge encompasses Company Registration/Strike Off consulting, Company Law & Secretarial Compliance, Securities Laws & Compliances, Legal Document Management, Due Diligence, Corporate Compliance, Audits & Certifications, and the formation of diverse entities including Private Limited, One Person Company (OPC), Section 8, Limited Companies, and Associations.
-
-                            </p>
-                            <p>Her extensive knowledge encompasses Company Registration/Strike Off consulting, Company Law & Secretarial Compliance, Securities Laws & Compliances, Legal Document Management, Due Diligence, Corporate Compliance, Audits & Certifications, and the formation of diverse entities including Private Limited, One Person Company (OPC), Section 8, Limited Companies, and Associations.
+                            <p><b>CA Kiran Shah</b> is a qualified Chartered Accountant with over six years of post-qualification experience in internal audit, taxation, compliance, and financial reporting. With a robust foundation in direct and indirect taxation, internal controls, and regulatory frameworks, she brings in-depth knowledge and practical expertise from working with reputed organizations.
 
 
                             </p>
-                            <p>Kalpa's proficiency also extends to LLP Registration & Compliance, General Corporate Advisory, Trademark matters, Share Transfer and Transmission, IEPF refund (Physical to Demat), IEC and ICE GATE Registration, and various Business Registration & Licensing solutions. With a commitment to providing comprehensive and reliable services, Kalpa Ladda is your trusted partner for all your corporate and legal needs.
+                            <p>A dual-qualified professional (CA and LLB), Kiran blends financial and legal acumen, enabling a sharp understanding of financial laws, contractual obligations, and statutory requirements. Her approach ensures precise, insightful, and regulation-compliant assessments.
 
+
+
+                            </p>
+                            <p>Kiran has successfully led audits across corporates, banks, trusts, and professional firms. Her hands-on experience includes statutory and internal audits, RERA audits, trust audits, and project finance reviews. She is known for her commitment to quality, professional integrity, and adding strategic value to every assignment.
+
+
+                            </p>
+                            <p>
+                                She has been honored with awards like Prodigy, Anchor Catalyst, Victor, and Pro Loyalty, reflecting her dedication, leadership, and performance excellence. Alongside her professional role, Kiran actively engages in social and community initiatives. She is also a passionate animal lover and regularly contributes to causes supporting animal welfare, reflecting her compassionate and inclusive values.
+
+                            </p>
+                            <p>
+                                Kiran believes in consistent learning, accountability, and professional evolution. Her focus lies in strengthening her expertise in bank audits, trust audits, internal audit systems, and project finance advisory. She envisions contributing meaningfully to India’s increasingly regulated and transparent financial landscape. Her personal values of empathy and responsibility extend beyond work, including her support for animal welfare and nature conservation.
                             </p>
 
 

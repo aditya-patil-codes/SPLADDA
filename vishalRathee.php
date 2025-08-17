@@ -168,7 +168,7 @@
 
 
               <p>
-              <p><b>Vishal Rathi</b>, a highly accomplished Fellow Chartered Accountant with an impressive professional track record of over 20 years. He holds a B.Com degree from the University of Pune and is a Qualified Independent Director, certified by the Indian Institute of Corporate Affairs (IICA). Demonstrating his commitment to continuous learning, he has also completed several specialized certificate courses, including Internal Audit, GST, and Artificial Intelligence (AI).
+              <p><b>CA Vishal Rathi</b>, a highly accomplished Fellow Chartered Accountant with an impressive professional track record of over 20 years. He holds a B.Com degree from the University of Pune and is a Qualified Independent Director, certified by the Indian Institute of Corporate Affairs (IICA). Demonstrating his commitment to continuous learning, he has also completed several specialized certificate courses, including Internal Audit, GST, and Artificial Intelligence (AI).
               </p>
               <p>Over the course of his career, Vishal has gained invaluable expertise in GST, Internal Audits, Taxation, and Tax Planning, having worked with numerous listed and multinational companies. His practice is focused on providing strategic financial, taxation, and management consultancy services to a diverse clientele, including start-ups, IT & ITES companies, multinational corporations, multiplexes, government organizations, and private traders.
               </p>
