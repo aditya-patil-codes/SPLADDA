@@ -584,7 +584,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <a href="sameerLadda.php"><img src="assets/img/testimonials/fo11.jpg" class="img-fluid" alt="" /></a>
+                <a href="sameerLadda.php"><img src="assets/img/testimonials/CASameer.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -599,7 +599,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <a href="vishalRathee.php"><img src="assets/img/testimonials/fo22.jpg" class="img-fluid" alt="" /></a>
+                <a href="vishalRathee.php"><img src="assets/img/testimonials/CARathee.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -614,7 +614,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <a href="suchitrawarudkar.php"><img src="assets/img/team/CASWPP.jpg" class="img-fluid" alt="" /></a>
+                <a href="suchitrawarudkar.php"><img src="assets/img/testimonials/CAsuchitranew.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -632,7 +632,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <a href="shravanLadda.php"><img src="assets/img/testimonials/fo33.jpg" class="img-fluid" alt="" /></a>
+                <a href="shravanLadda.php"><img src="assets/img/testimonials/CAShravan.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -663,7 +663,7 @@
                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <a href="kalpaLadda.php"><img src="assets/img/testimonials/fo5.jpg" class="img-fluid" alt="" /></a>
+                <a href="kalpaLadda.php"><img src="assets/img/testimonials/CSKalpa.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -773,7 +773,7 @@
               Row House no.7, Samruddhi Row Houses,<br />
               Kalamkar Park Road, Opp Park Marina Society,<br />
               Balewadi Phata, Baner, Pune, 411045, IN<br />
-              <a href="https://www.google.com/maps?q=Samruddhi+Row+Houses,+Baner,+Pune+411045" target="_blank">Get directions</a><br /><br />
+              <a href="https://www.google.com/maps?q=18.5640253,73.7844823" target="_blank">Get directions</a><br /><br />
 
               <strong>Mumbai Office:</strong><br />
               C/o Mrs. Aarti Vishal Rathi, Gala No.230,<br />

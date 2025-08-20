@@ -129,13 +129,8 @@
         <div class="container" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-              <img style="object-fit: cover;
-
-              width: 450px;
-              
-              
-              
-              height: 400px;" src="assets/img/testimonials/mainguy3.png" style="height: max-content; " class="img-fluid mt-4 mainimg" alt="" />
+              <img style="object-fit: cover;width: 450px;
+              height: 500px;" src="assets/img/testimonials/CASameer.jpg" style="height: max-content; " class="img-fluid mt-4 mainimg" alt="" />
               <p>
 
               <div class="row">
