@@ -227,11 +227,14 @@
           </div>
         </div>
         <div style="height: 480px" class="carousel-item">
-          <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img3.jpg" class="d-block w-100" alt="..." />
+          <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img4.jpeg" class="d-block w-100" alt="..." />
           <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
             <h1 class="mt-5 display-3 fw-bolder text-capitalize pt-5">
               Trusted Financial Partners for Your Growth
             </h1>
+            <div class="text-center">
+              <a href="#about" class="btn btn-primary scrollto px-4 py-2 fs-5 mt-5">Explore</a>
+            </div>
             <!-- <h2>Explore Oppourtunities at S. P. Ladda & Associates.</h2> -->
             <div class="text-center">
 
@@ -239,11 +242,14 @@
           </div>
         </div>
         <div style="height: 480px" class="carousel-item">
-          <img style="height: 100%; object-fit: cover; filter: brightness(0.3)" src="carosalImg/img3.jpg" class="d-block w-100" alt="..." />
+          <img style="height: 100%; object-fit: cover; filter: brightness(0.6)" src="carosalImg/slide5.webp" class="d-block w-100" alt="..." />
           <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
             <h1 class="mt-5 display-3 fw-bolder text-capitalize pt-5">
               Simplifying Compliance, Empowering Business
             </h1>
+            <div class="text-center">
+              <a href="#about" class="btn btn-primary scrollto px-4 py-2 fs-5 mt-5">Explore</a>
+            </div>
             <!-- <h2>Explore Oppourtunities at S. P. Ladda & Associates.</h2> -->
             <div class="text-center">
 
@@ -270,8 +276,7 @@
       <div class="section-title">
         <h2>~ Services ~</h2>
         <h6>
-          Following is the Brief About what do we Offer to Our clients. We
-          have vast experience and Professionals for the Same.
+          We offer a comprehensive range of services backed by vast experience and a team of qualified professionals, delivering reliable and value-driven solutions to our clients.
         </h6>
       </div>
 
@@ -644,7 +649,7 @@
             </div>
           </div>
 
- 
+
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
@@ -660,7 +665,7 @@
             </div>
           </div>
 
-                   <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
                 <a href="kalpaLadda.php"><img src="assets/img/testimonials/CSKalpa.jpg" class="img-fluid" alt="" /></a>
@@ -901,7 +906,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

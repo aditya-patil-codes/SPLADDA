@@ -136,8 +136,9 @@
                     Education:
                   </b>
                   <ul class="  pt-2">
-                    <li class=" pb-2 ">Chartered Accountant </li>
-                    <li class=" pb-2"> Bachelor of Commerce from the University of Pune</li>
+                    <li class=" pb-2 ">Associate Chartered Accountant (ACA)</li>
+                    <li class=" pb-2 ">Diploma in IFRS</li>
+                    <li class=" pb-2"> Bachelor of Commerce</li>
 
 
                   </ul>
@@ -147,10 +148,17 @@
                     Area of Expertise:
                   </b>
                   <ul class="   pt-2">
-                    <li class=" pb-2">Forex Hedging</li>
-                    <li class=" pb-2">Direct Taxation</li>
-
-                    <li class=" pb-2">Transfer Pricing</li>
+                    <li class=" pb-2">IFRS & IndAS Advisory
+                    </li>
+                    <li class=" pb-2">Financial Reporting & Complex Accounting
+                    </li>
+                    <li class=" pb-2">Direct Taxation & Tax Planning</li>
+                    <li class=" pb-2">Virtual CFO Services
+                    </li>
+                    <li class=" pb-2">Government Accounting & Consulting
+                    </li>
+                    <li class=" pb-2">Company Audits & Assurance
+                    </li>
 
 
                   </ul>
@@ -162,12 +170,12 @@
             <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <p>
               <h6 class="fw-bold h2 " style="color: #16507b">CA Shravan Ladda</h6>
-              <p><b>Shravan Ladda</b>, a distinguished Chartered Accountant based in Pune, holds a Commerce degree from the renowned University of Pune. With a deep understanding of Finance and Technology, Shravan remains updated and well-equipped with the latest industry knowledge.
+              <p><b>CA Shravan Ladda</b>, a distinguished Chartered Accountant based in Pune, holds a Commerce degree from the renowned University of Pune. With a deep understanding of Finance and Technology, CA Shravan remains updated and well-equipped with the latest industry knowledge.
               </p>
               <p>Having previously worked as a Financial Controller at a Multinational Investment Bank and gained valuable experience as an Industrial Trainee. He has a diverse background in Transfer Pricing, Forex Hedging, Bookkeeping, and Financial Statement Preparation under various Accounting Standards, as well as Direct Taxation.
 
               </p>
-              <p>Shravan specializes in Virtual CFO Services, Government Accounting and Consulting, Company Audit, Direct Taxation, Tax Planning and Advisory.
+              <p>CA Shravan specializes in Virtual CFO Services, Government Accounting and Consulting, Company Audit, Direct Taxation, Tax Planning and Advisory.
 
               </p>
               <p>In his pursuit of excellence, He is committed to staying at the forefront of technological advancements. He proactively updates himself, his firm, and his clients with the latest tools and trends, ensuring they benefit from the advantages technology has to offer.
@@ -332,7 +340,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

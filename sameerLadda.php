@@ -140,7 +140,7 @@
                   <ul class="  pt-2">
                     <li class=" pb-2 "> Fellow Chartered Accountant <br> (FCA).</li>
                     <li class=" pb-2"> Master of Commerce</li>
-
+                    <li class=" pb-2">Certified Independent Director</li>
 
                   </ul>
                 </div>
@@ -149,9 +149,12 @@
                     Area of Expertise:
                   </b>
                   <ul class="   pt-2">
-                    <li class=" pb-2">Finance</li>
-                    <li class=" pb-2">Valuation</li>
-                    <li class=" pb-2">MSME and Startup</li>
+                    <li class=" pb-2">Audit & Taxation</li>
+                    <li class=" pb-2">Project Finance & Business Consulting
+                    </li>
+                    <li class=" pb-2">MSME & Startup Advisory</li>
+                    <li class=" pb-2">Valuation & Restructuring</li>
+                    <li class=" pb-2">Co-operative & Government Sector Accounting</li>
 
 
                   </ul>
@@ -181,7 +184,7 @@
               <p>
                 CA Sameer has successfully worked with diverse sectors such as <strong>Entertainment and Media, Infrastructure and Contractors, Government and Education, Banks (Nationalized & Co-operative), Housing and Credit Societies, SMEs and Startups, as well as Traders, Manufacturers, and Service Providers.</strong>
               </p>
-              <p>As the backbone and pillar of the firm, Sameer embodies the principle of <b>"सबका साथ सबका विकास"</b> (Together We Grow). He believes in fostering growth together with clients, partners, and teammates.</p>
+              <p>As the backbone and pillar of the firm, CA Sameer embodies the principle of <b>"सबका साथ सबका विकास"</b> (Together We Grow). He believes in fostering growth together with clients, partners, and teammates.</p>
 
               <p>
                 He lives by the motto:
@@ -340,7 +343,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

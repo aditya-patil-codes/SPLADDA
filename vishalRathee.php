@@ -140,6 +140,7 @@
                   <ul class="  pt-2">
                     <li class=" pb-2 "> Fellow Chartered Accountant <br> (FCA).</li>
                     <li class=" pb-2"> Bachelor of Commerce</li>
+                    <li class=" pb-2">Certified Independent Director</li>
 
 
                   </ul>
@@ -149,11 +150,14 @@
                     Area of Expertise:
                   </b>
                   <ul class="   pt-2">
-                    <li class=" pb-2">Independent Director</li>
-                    <li class=" pb-2">Internal Audits</li>
-                    <li class=" pb-2">CFO Services</li>
-                    <li class=" pb-2">Diverse Clientele</li>
-                    <li class=" pb-2">GST</li>
+                    <li class=" pb-2">GST, Taxation & Strategic Tax Planning
+                    </li>
+                    <li class=" pb-2">Internal & Management Audits
+                    </li>
+                    <li class=" pb-2">Virtual CFO Services & Financial Advisory
+                    </li>
+                    <li class=" pb-2">Business Structuring, Compliance & India Entry Services</li>
+                    <li class=" pb-2">Advisory for Startups, IT/ITES & Multinational Companies</li>
 
 
                   </ul>
@@ -170,9 +174,9 @@
               <p>
               <p><b>CA Vishal Rathi</b>, a highly accomplished Fellow Chartered Accountant with an impressive professional track record of over 20 years. He holds a B.Com degree from the University of Pune and is a Qualified Independent Director, certified by the Indian Institute of Corporate Affairs (IICA). Demonstrating his commitment to continuous learning, he has also completed several specialized certificate courses, including Internal Audit, GST, and Artificial Intelligence (AI).
               </p>
-              <p>Over the course of his career, Vishal has gained invaluable expertise in GST, Internal Audits, Taxation, and Tax Planning, having worked with numerous listed and multinational companies. His practice is focused on providing strategic financial, taxation, and management consultancy services to a diverse clientele, including start-ups, IT & ITES companies, multinational corporations, multiplexes, government organizations, and private traders.
+              <p>Over the course of his career, CA Vishal has gained invaluable expertise in GST, Internal Audits, Taxation, and Tax Planning, having worked with numerous listed and multinational companies. His practice is focused on providing strategic financial, taxation, and management consultancy services to a diverse clientele, including start-ups, IT & ITES companies, multinational corporations, multiplexes, government organizations, and private traders.
               </p>
-              <p>Vishal is also highly sought after for his CFO services, where he delivers strategic financial guidance to organizations. His expertise extends beyond financial management, assisting corporates in business structuring, compliance management, and establishing operations in India.
+              <p>CA Vishal is also highly sought after for his CFO services, where he delivers strategic financial guidance to organizations. His expertise extends beyond financial management, assisting corporates in business structuring, compliance management, and establishing operations in India.
               </p>
 
 
@@ -327,7 +331,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

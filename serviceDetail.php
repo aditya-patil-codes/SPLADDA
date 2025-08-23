@@ -490,7 +490,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

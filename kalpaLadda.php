@@ -136,8 +136,8 @@
                     Education:
                   </b>
                   <ul class="  pt-2">
+                    <li class=" pb-2 ">Fellow Company Secretary (FCS)</li>
                     <li class=" pb-2">Master of Commerse</li>
-                    <li class=" pb-2 ">Company Secretary</li>
 
 
 
@@ -148,11 +148,11 @@
                     Area of Expertise:
                   </b>
                   <ul class="   pt-2">
-                    <li class=" pb-2">Legal Document Management</li>
-                    <li class=" pb-2">Corporate Compliance</li>
-                    <li class=" pb-2">Audits and Certifications</li>
-                    <li class=" pb-2">General Corporate Advisory</li>
-                    <li class=" pb-2">Company Registration and Strike Off consulting</li>
+                    <li class=" pb-2">Company Law & Secretarial Compliance</li>
+                    <li class=" pb-2">Corporate Legal Documentation & Due Diligence</li>
+                    <li class=" pb-2">Company/LLP Formation & Governance</li>
+                    <li class=" pb-2">ROC, FEMA & Trademark Compliance</li>
+
 
 
                   </ul>
@@ -172,7 +172,7 @@
 
 
               </p>
-              <p>In addition, Kalpa provides end-to-end services in LLP Registration & Compliance, Trademark advisory, Share Transfer & Transmission, IEC and ICE GATE Registration, and various Business Registration and Licensing solutions. Working in close coordination with audit, tax, and finance teams, she ensures seamless acompliance solutions tailored to client-specific needs.
+              <p>In addition, CS Kalpa provides end-to-end services in LLP Registration & Compliance, Trademark advisory, Share Transfer & Transmission, IEC and ICE GATE Registration, and various Business Registration and Licensing solutions. Working in close coordination with audit, tax, and finance teams, she ensures seamless acompliance solutions tailored to client-specific needs.
 
 
               </p>
@@ -327,7 +327,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

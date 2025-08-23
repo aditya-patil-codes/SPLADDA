@@ -136,9 +136,9 @@
                     Education:
                   </b>
                   <ul class="  pt-2">
-                    <li class=" pb-2 ">Associate Chartered Accountant (ACA).</li>
-                    <li class=" pb-2">Bachlor of Commerse</li>
-                    <li class=" pb-2">Associate Member of The Institute of Chartered Accountants of India</li>
+                    <li class=" pb-2 ">Fellow Chartered Accountant (FCA).</li>
+                    <li class=" pb-2">DISA Qualified</li>
+                    <li class=" pb-2">Bachelor of Law (Pursuing)</li>
 
 
                   </ul>
@@ -148,10 +148,14 @@
                     Area of Expertise:
                   </b>
                   <ul class="   pt-2">
-                    <li class=" pb-2">Indirect Taxation (GST)</li>
-                    <li class=" pb-2">Forex Hedging</li>
-                    <li class=" pb-2">Direct Taxation</li>
-                    <li class=" pb-2">Transfer Pricing</li>
+                    <li class=" pb-2">GST Compliance, Refunds & Litigation
+                    </li>
+                    <li class=" pb-2">Statutory & Bank Audits
+                    </li>
+                    <li class=" pb-2">Financial & Business Advisory
+                    </li>
+                    <li class=" pb-2">Tax Planning & Business Structuring</li>
+                    <li class=" pb-2">MIS, Budgeting & Accounting Systems (Tally, Zoho Books)</li>
 
 
                   </ul>
@@ -183,7 +187,7 @@
 
 
               </p>
-              <p>In her audit practice, Suchitra has led engagements with nationalized banks, multi-state co-operative institutions, government undertakings, and SMEs, demonstrating a keen understanding of regulatory frameworks and internal controls.
+              <p>In her audit practice, CA Suchitra has led engagements with nationalized banks, multi-state co-operative institutions, government undertakings, and SMEs, demonstrating a keen understanding of regulatory frameworks and internal controls.
               </p>
 
               <div>
@@ -350,7 +354,7 @@
         Host: "smtp.elasticemail.com",
         Username: "sp.ladda.website@gmail.com",
         Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-        To: "aditya249645@gmail.com",
+        To: "partners.spl@gmail.com",
         From: "sp.ladda.website@gmail.com",
         Subject: "Mail From Website",
         Body: "Name: " +

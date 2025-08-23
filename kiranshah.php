@@ -136,10 +136,10 @@
                                         Education:
                                     </b>
                                     <ul class="  pt-2">
-                                        <li class=" pb-2">Chartered Accountant (CA) – ICAI
+                                        <li class=" pb-2"> Associate Chartered Accountant (FCA)
                                         </li>
                                         <li class=" pb-2 ">Bachelor of Law (LL.B.)</li>
-                                        <li class=" pb-2 ">B.Com (Accounts & Costing)</li>
+                                        <li class=" pb-2 ">Bachelor of Commerse</li>
 
 
 
@@ -151,10 +151,16 @@
                                     </b>
                                     <ul class="   pt-2">
                                         <li class=" pb-2">Internal & Statutory Audits</li>
+                                        <li class=" pb-2">Taxation & Regulatory Compliance
+                                        </li>
                                         <li class=" pb-2">Direct & Indirect Taxation</li>
                                         <li class=" pb-2">Project Finance Reviews & Due Diligence</li>
-                                        <li class=" pb-2">Trust & NGO Audits</li>
-                                        <li class=" pb-2">Financial–Legal Integration</li>
+                                        <li class=" pb-2">Bank, Trust & RERA Audits
+                                        </li>
+                                        <li class=" pb-2">Project Finance Reviews & Advisory
+                                        </li>
+                                        <li class=" pb-2">Financial Reporting & Legal Compliance</li>
+
 
 
                                     </ul>
@@ -170,21 +176,21 @@
 
 
                             </p>
-                            <p>A dual-qualified professional (CA and LLB), Kiran blends financial and legal acumen, enabling a sharp understanding of financial laws, contractual obligations, and statutory requirements. Her approach ensures precise, insightful, and regulation-compliant assessments.
+                            <p>A dual-qualified professional (CA and LLB), CA Kiran blends financial and legal acumen, enabling a sharp understanding of financial laws, contractual obligations, and statutory requirements. Her approach ensures precise, insightful, and regulation-compliant assessments.
 
 
 
                             </p>
-                            <p>Kiran has successfully led audits across corporates, banks, trusts, and professional firms. Her hands-on experience includes statutory and internal audits, RERA audits, trust audits, and project finance reviews. She is known for her commitment to quality, professional integrity, and adding strategic value to every assignment.
+                            <p>CA Kiran has successfully led audits across corporates, banks, trusts, and professional firms. Her hands-on experience includes statutory and internal audits, RERA audits, trust audits, and project finance reviews. She is known for her commitment to quality, professional integrity, and adding strategic value to every assignment.
 
-
-                            </p>
-                            <p>
-                                She has been honored with awards like Prodigy, Anchor Catalyst, Victor, and Pro Loyalty, reflecting her dedication, leadership, and performance excellence. Alongside her professional role, Kiran actively engages in social and community initiatives. She is also a passionate animal lover and regularly contributes to causes supporting animal welfare, reflecting her compassionate and inclusive values.
 
                             </p>
                             <p>
-                                Kiran believes in consistent learning, accountability, and professional evolution. Her focus lies in strengthening her expertise in bank audits, trust audits, internal audit systems, and project finance advisory. She envisions contributing meaningfully to India’s increasingly regulated and transparent financial landscape. Her personal values of empathy and responsibility extend beyond work, including her support for animal welfare and nature conservation.
+                                She has been honored with awards like Prodigy, Anchor Catalyst, Victor, and Pro Loyalty, reflecting her dedication, leadership, and performance excellence. Alongside her professional role, CA Kiran actively engages in social and community initiatives. She is also a passionate animal lover and regularly contributes to causes supporting animal welfare, reflecting her compassionate and inclusive values.
+
+                            </p>
+                            <p>
+                                CA Kiran believes in consistent learning, accountability, and professional evolution. Her focus lies in strengthening her expertise in bank audits, trust audits, internal audit systems, and project finance advisory. She envisions contributing meaningfully to India’s increasingly regulated and transparent financial landscape. Her personal values of empathy and responsibility extend beyond work, including her support for animal welfare and nature conservation.
                             </p>
 
 
@@ -331,7 +337,7 @@
                 Host: "smtp.elasticemail.com",
                 Username: "sp.ladda.website@gmail.com",
                 Password: "F37D6F5DAFA0B341B50D758A60D8785593F2",
-                To: "aditya249645@gmail.com",
+                To: "partners.spl@gmail.com",
                 From: "sp.ladda.website@gmail.com",
                 Subject: "Mail From Website",
                 Body: "Name: " +
