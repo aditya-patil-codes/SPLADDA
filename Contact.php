@@ -1,3 +1,24 @@
+<!-- <section class="bg-primary text-white py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h3 class="mb-3">Stay Updated with Our Insights</h3>
+        <p class="mb-4">Subscribe to our newsletter for the latest updates on taxation, accounting, and business advisory services.</p>
+        <form class="row g-2 justify-content-center">
+          <div class="col-md-7">
+            <input type="email" class="form-control form-control-lg" placeholder="Enter your email address" aria-label="Email">
+          </div>
+          <div class="col-md-3">
+            <button type="submit" class="btn btn-light btn-lg w-100">Subscribe</button>
+          </div>
+        </form>
+        <small class="d-block mt-3 opacity-75">We respect your privacy. Unsubscribe at any time.</small>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,16 +55,29 @@
             transform: translateY(-5px);
         }
 
-        .mainimg {
-            border: 1px solid rgb(148, 148, 148);
-            border-radius: 15px;
-            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
+        .branch-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
+        .branch-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+        }
+
+        .icon-wrapper {
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .branch-card:hover .icon-wrapper {
+            transform: scale(1.1);
+            background-color: rgba(22, 80, 123, 0.15) !important;
+        }
+
 
         .whatsapp-float {
             position: fixed;
-            bottom: 10%;
+            bottom: 15vh;
             right: 1%;
             z-index: 10000;
             background-color: rgb(255, 255, 255);
@@ -115,112 +149,166 @@
         aria-label="Chat on WhatsApp">
         <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" class="whatsapp-icon">
     </a>
-
+    <!-- End Header -->
     <section style="padding-bottom: 0px">
-        <div id="carouselExampleInterval" class="carousel slide py-0" data-bs-ride="carousel">
-            <div class="carousel-indicators"></div>
-            <div class="carousel-inner">
-                <div style="height: 20vh; background-color: #f0f0f086" class="carousel-item active">
-                    <!-- <img
-                style="height: 100%; object-fit: cover; filter: brightness(0.3)"
-                src="carosalImg/img3.jpg"
-                class="d-block w-100"
-                alt="..."
-              /> -->
-                    <div class="carousel-caption top-0 mt-4" data-aos="fade-up" data-aos-delay="100">
-                        <h2 class="display-5 fw-bold" style="color: #16507b">
-                            ~ Our Leadership ~
+        <div class=" py-0">
+
+            <div class="text-center">
+                <div style=" background-color: #f0f0f086">
+
+                    <div class=" top-0  py-5">
+                        <h2 class="display-6 fw-bold" style="color: #16507b">
+                            ~ Reach us for your One Stop Solutions ~
                         </h2>
 
+                        <p class="pt-3 px-5">
+                            <span class="h5 fw-bold" style="color: #16507b">S.P. Ladda & Associates,</span>
+                            <span class="text-secondary"> is a Chartered Accountancy firm based in Pune, offering seamless online consultations as well. With two offices in Pune and a presence in Mumbai, we ensure accessibility and convenience for clients across locations.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="row ">
+                <div class="mb-3">
+                    <h3>
+                        <strong>Send Your Message to Us</strong>
+                        <p class="fs-6 pt-2 text-muted">
+                            We are here to assist you. Please fill out the form below to get in touch with us.
+                        </p>
+                    </h3>
+                </div>
+
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <form id="form_id" method="post">
+                        <div class="row gy-3 gx-md-3">
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control p-3 fs-8" id="name" placeholder="Your Name" required />
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" class="form-control p-3 fs-8" id="email" placeholder="Your Email" required />
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="subject" class="form-control p-3 fs-8" id="subject" placeholder="Subject" required />
+                            </div>
+                            <div class="col-12">
+                                <textarea name="msg" rows="9" id="msg" class="form-control p-3 fs-8" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="col-12 text-center mt-3">
+                                <button type="submit" class="btn btn-primary px-4 py-2 fs-8" name="sendmsg">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="info">
+                        <div class="address border p-4">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location</h4>
+                            <p>Opp. Gangadham Towers, Chowk, Ganga Dham
+                                Pune, Maharashtra, 411037</p>
+                        </div>
+
+                        <div class="email border p-4">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email</h4>
+                            <p>caladdaclient@gmail.com</p>
+                        </div>
+
+                        <div class="phone border p-4">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call</h4>
+                            <p>020-24244200</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+
+                <iframe style="border: 0; width: 100%; height: 270px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2650226467517!2d73.8722898740985!3d18.471650870668874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c01eb7f45545%3A0xccdc8a58d49e6f73!2sS.P.%20Ladda%20%26%20Associates!5e0!3m2!1sen!2sin!4v1688147997602!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- next section  -->
+
+
+    <section id="branches" class="py-5 bg-light">
+        <div class="container" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3" style="color: #16507b">~Our Branches~</h2>
+                <p class="lead text-muted">We are accessible at our offices in Pune and Mumbai or virtually.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Baner Branch -->
+                <div class="col-lg-5 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 branch-card">
+                        <div class="card-header bg-transparent border-0 pt-4">
+                            <div class="text-center">
+                                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                    <i class="bi bi-geo-alt fs-2 text-primary"></i>
+                                </div>
+                                <h5 class="card-title fw-bold text-dark">Baner Office (Pune)</h5>
+                            </div>
+                        </div>
+                        <div class="card-body pt-0">
+                            <div class="text-center text-muted">
+                                <p class="card-text mb-1">Row House no.7, Samruddhi Row Houses,</p>
+                                <p class="card-text mb-1">Kalamkar Park Road, Opp Park Marina Society,</p>
+                                <p class="card-text mb-1">Balewadi Phata, Baner, Pune, 411045, IN</p>
+                            </div>
+                            <div class="text-center mt-4">
+                                <a href="https://www.google.com/maps?q=18.5640253,73.7844823" target="_blank" class="btn btn-primary rounded-pill px-4">
+                                    <i class="bi bi-map me-2"></i>View on Google Maps
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mumbai Branch -->
+                <div class="col-lg-5 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 branch-card">
+                        <div class="card-header bg-transparent border-0 pt-4">
+                            <div class="text-center">
+                                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                    <i class="bi bi-geo-alt fs-2 text-primary"></i>
+                                </div>
+                                <h5 class="card-title fw-bold text-dark">Mumbai Office</h5>
+                            </div>
+                        </div>
+                        <div class="card-body pt-0">
+                            <div class="text-center text-muted">
+                                <p class="card-text mb-1">C/o Mrs. Aarti Vishal Rathi, Gala No.230,</p>
+                                <p class="card-text mb-1">Blue Rose Industrial Estate, Near Metro Mall,</p>
+                                <p class="card-text mb-1">Borivali East, Mumbai, 400006, IN</p>
+                            </div>
+                            <div class="text-center mt-4">
+                                <a href="https://maps.app.goo.gl/iMdWsVEkJNVxUUgj7" target="_blank" class="btn btn-primary rounded-pill px-4">
+                                    <i class="bi bi-map me-2"></i>View on Google Maps
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="" class="about pt-1 pb-2 section-bg">
-        <div class="container " data-aos="fade-up">
-            <section id="about-video" class="about-video container-fluid pt-3">
-                <div class="container" data-aos="fade-up">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-                            <img style="height: 500px; width: 450px; object-fit:cover;" src="assets/img/testimonials/caKiran.jpg" style="height: max-content; " class="img-fluid mt-4 mainimg" alt="" />
-                            <p>
-
-                            <div class="row">
-                                <div class="col pt-3"><b class="px-3 h4 fw-bold" style="color: #16507b;">
-                                        Education:
-                                    </b>
-                                    <ul class="  pt-2">
-                                        <li class=" pb-2"> Associate Chartered Accountant (FCA)
-                                        </li>
-                                        <li class=" pb-2 ">Bachelor of Law (LL.B.)</li>
-                                        <li class=" pb-2 ">Bachelor of Commerce</li>
 
 
-
-                                    </ul>
-                                </div>
-                                <div class="col pt-3">
-                                    <b class=" h4 fw-bold" style="color: #16507b;">
-                                        Area of Expertise:
-                                    </b>
-                                    <ul class="   pt-2">
-                                        <li class=" pb-2">Internal & Statutory Audits</li>
-                                        <li class=" pb-2">Taxation & Regulatory Compliance
-                                        </li>
-                                        <li class=" pb-2">Direct & Indirect Taxation</li>
-                                        <li class=" pb-2">Project Finance Reviews & Due Diligence</li>
-                                        <li class=" pb-2">Bank, Trust & RERA Audits
-                                        </li>
-                                        <li class=" pb-2">Project Finance Reviews & Advisory
-                                        </li>
-                                        <li class=" pb-2">Financial Reporting & Legal Compliance</li>
-
-
-
-                                    </ul>
-                                </div>
-                            </div>
-
-                            </p>
-                        </div>
-                        <div class="col-lg-6 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-                            <p>
-                            <h6 class="fw-bold h2 " style="color: #16507b">CA Kiran Shah</h6>
-                            <p><b>CA Kiran Shah</b> is a qualified Chartered Accountant with over six years of post-qualification experience in internal audit, taxation, compliance, and financial reporting. With a robust foundation in direct and indirect taxation, internal controls, and regulatory frameworks, she brings in-depth knowledge and practical expertise from working with reputed organizations.
-
-
-                            </p>
-                            <p>A dual-qualified professional (CA and LLB), CA Kiran blends financial and legal acumen, enabling a sharp understanding of financial laws, contractual obligations, and statutory requirements. Her approach ensures precise, insightful, and regulation-compliant assessments.
-
-
-
-                            </p>
-                            <p>CA Kiran has successfully led audits across corporates, banks, trusts, and professional firms. Her hands-on experience includes statutory and internal audits, RERA audits, trust audits, and project finance reviews. She is known for her commitment to quality, professional integrity, and adding strategic value to every assignment.
-
-
-                            </p>
-                            <p>
-                                She has been honored with awards like Prodigy, Anchor Catalyst, Victor, and Pro Loyalty, reflecting her dedication, leadership, and performance excellence. Alongside her professional role, CA Kiran actively engages in social and community initiatives. She is also a passionate animal lover and regularly contributes to causes supporting animal welfare, reflecting her compassionate and inclusive values.
-
-                            </p>
-                            <p>
-                                CA Kiran believes in consistent learning, accountability, and professional evolution. Her focus lies in strengthening her expertise in bank audits, trust audits, internal audit systems, and project finance advisory. She envisions contributing meaningfully to India’s increasingly regulated and transparent financial landscape. Her personal values of empathy and responsibility extend beyond work, including her support for animal welfare and nature conservation.
-                            </p>
-
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </section>
-
-
-    <!-- End Header -->
-
-    <!-- next section  -->
 
     <!-- ======= Footer ======= -->
     <footer class=" pt-5 pb-3 section-bgf">
@@ -376,6 +464,7 @@
 
         </div>
     </footer>
+
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

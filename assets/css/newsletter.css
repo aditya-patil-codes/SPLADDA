@@ -6,7 +6,7 @@
 }
 .whatsapp-float {
   position: fixed;
-  bottom: 10%;
+  bottom: 15vh;
   right: 1%;
   z-index: 10000;
   background-color:rgb(255, 255, 255);
@@ -51,7 +51,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 6vh;
   z-index: 996;
   background: #2487ce;
   width: 40px;
@@ -402,6 +402,64 @@ h6 {
   display: block;
 }
 
+/* Dropdown menu styling - smaller & with lines */
+.navbar .dropdown ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 99;
+  background: #fff;
+  padding: 5px 0;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+}
+
+.navbar .dropdown ul li {
+  min-width: 160px;
+  border-bottom: 1px solid #e0e0e0; /* line below each item */
+}
+
+.navbar .dropdown ul li:last-child {
+  border-bottom: none; /* remove line for the last item */
+}
+
+.navbar .dropdown ul li a {
+  padding: 6px 15px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar .dropdown ul li a:hover {
+  background: #f2f2f2;
+}
+
+
+/* Fix wrapping alignment for list items */
+.useful-links ul {
+  list-style: none; /* remove default bullets */
+  padding-left: 0;
+}
+
+.useful-links ul li {
+  position: relative;
+  padding-left: 20px;  /* space for custom bullet */
+  margin-bottom: 8px;
+}
+
+.useful-links ul li::before {
+  content: "›"; /* custom arrow */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #007bff; /* blue color */
+  font-size: 14px;
+  line-height: 1.5;
+}
 
 /*--------------------------------------------------------------
   # Hero Section
@@ -542,6 +600,11 @@ section {
 .section-bg {
   background-color: #f8fbfe;
 }
+
+.section-bgf {
+  background-color: #e6f3ffff;
+}
+
 
 .section-title {
   text-align: center;

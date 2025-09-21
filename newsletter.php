@@ -34,7 +34,7 @@
   <style>
     .whatsapp-float {
       position: fixed;
-      bottom: 10%;
+      bottom: 15vh;
       right: 1%;
       z-index: 10000;
       background-color: rgb(255, 255, 255);
@@ -55,27 +55,43 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo"><img src="assets/img/download.png" alt="" class="img-fluid" /></a>
 
-      <nav id="navbar" class="navbar ">
+      <!-- Logo + Text -->
+      <a href="index.php" class="d-flex align-items-center logo">
+        <img src="assets/img/download.png" alt="Logo" class="img-fluid" style="height:60px; margin-right:10px;" />
+        <div class="logo-text">
+          <h1 style="margin:0; font-size:18px; color:#003366; font-weight:600;">
+            S.P. LADDA & ASSOCIATES
+          </h1>
+          <p style="margin:0; font-size:15px; color:green; font-weight:500;">
+            Chartered Accountants
+          </p>
+        </div>
+      </a>
+
+      <!-- Navbar -->
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a class=" scrollto active" href="./">Home</a></li>
-          <li><a class=" scrollto" href="./#about">About us</a></li>
-          <li><a class=" scrollto" href="./#services">Services</a></li>
-          <li><a class=" scrollto" href="./#team">Team</a></li>
-          <li><a class=" scrollto" href="./#contact">Contact us</a></li>
-          <li>
-            <a class=" scrollto " href="careers.php">Careers</a>
+          <li><a class="scrollto active" href="./">Home</a></li>
+          <li><a class="scrollto" href="./#about">About us</a></li>
+
+          <!-- Dropdown for Services -->
+          <li class="dropdown">
+            <a href="./#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="ServiceDetails.php#AuditandAssurance">Assurance and Audit</a></li>
+              <li><a href="ServiceDetails.php#DirectTaxation">Direct Taxation</a></li>
+              <li><a href="ServiceDetails.php#IndirectTaxation">Indirect Taxation</a></li>
+              <li><a href="ServiceDetails.php#Accounting&Consuting">Accounting & Consulting</a></li>
+              <li><a href="ServiceDetails.php#BusinessSupportServices">Business Support Services</a></li>
+              <li><a href="ServiceDetails.php#AdvisoryServices">Advisory Services</a></li>
+            </ul>
           </li>
 
-          <li>
-            <a class=" scrollto" href="newsletter.php">Updates</a>
-          </li>
-
-          <li></li>
-
-
+          <li><a class="scrollto" href="./#team">Team</a></li>
+          <li><a class="scrollto" href="./Contact.php">Contact us</a></li>
+          <li><a class="scrollto" href="Careers.php">Careers</a></li>
+          <li><a class="scrollto" href="NewsLetter.php">Updates</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -113,7 +129,7 @@
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 text-center" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="ri-palette-line"></i></div>
-              <h4 class="title"><a href="gstnews.php">GST </a></h4>
+              <h4 class="title"><a href="GstNews.php">GST </a></h4>
               <p class="description">
                 We will predominantly work with organisations in the
                 charitable and voluntary sectors as partners to help them
@@ -125,7 +141,7 @@
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 text-center" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="ri-command-line"></i></div>
-              <h4 class="title"><a href="allnews.php">All Newsletters</a></h4>
+              <h4 class="title"><a href="AllNews.php">All Newsletters</a></h4>
               <p class="description">
                 We are committed to creating and sustaining long-term
                 relationships which drawn on our experience and expertise to
@@ -138,7 +154,7 @@
             <div class="icon-box">
               <div class="icon"><i class="ri-fingerprint-line"></i></div>
               <h4 class="title">
-                <a href="incometaxnews.php">Income Tax</a>
+                <a href="IncomeTaxNews.php">Income Tax</a>
               </h4>
               <p class="description">
                 To not just meet but exceed client expectation consistently by
@@ -154,90 +170,125 @@
   <!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>S.P. Ladda & Associates</h3>
-            <p>
-            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-2">
-              <strong>Primary</strong>
+  <footer class=" pt-5 pb-3 section-bgf">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Newsletter Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Stay Updated</h4>
+          <p class="text-muted">Subscribe to our newsletter for the latest updates on taxation, accounting, and business advisory services.</p>
+          <form class="mt-4">
+            <div class="mb-3">
+              <input type="email" class="form-control form-control-sm  border-1 text-white" placeholder="Your Email Address" required>
             </div>
-            104-105 Ganga Collidium<br />
-            Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra 411037 <br /><br />
+            <button type="submit" class="btn btn-primary btn-sm w-100">Subscribe</button>
+          </form>
 
-            </p>
+        </div>
 
-            <h5>Other Locations</h5>
-            <p>
+        <!-- Services Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Our Services</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bx bx-chevron-right text-primary"></i> Assurance and Audit</li>
+            <li class="mb-2"><i class="bx bx-chevron-right text-primary"></i> Direct Taxation</li>
+            <li class="mb-2"><i class="bx bx-chevron-right text-primary"></i> Indirect Taxation</li>
+            <li class="mb-2"><i class="bx bx-chevron-right text-primary"></i> Accounting and Management Consulting</li>
+            <li class="mb-2"><i class="bx bx-chevron-right text-primary"></i> Business Support Services</li>
+            <li class="mb-2"><i class="bx bx-chevron-right text-primary"></i> Advisory Services</li>
+          </ul>
+        </div>
 
-              <strong>Baner Office:</strong><br />
-              Row House no.7, Samruddhi Row Houses,<br />
-              Kalamkar Park Road, Opp Park Marina Society,<br />
-              Balewadi Phata, Baner, Pune, 411045, IN<br />
-              <a href="https://www.google.com/maps?q=Samruddhi+Row+Houses,+Baner,+Pune+411045" target="_blank">Get directions</a><br /><br />
+        <!-- Useful Links Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Useful Links</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="https://www.gst.gov.in/" class="text-decoration-none text-muted">
+                <i class="bx bx-chevron-right text-primary"></i> Goods and Services Tax (GST)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="https://www.incometax.gov.in/iec/foportal/" class="text-decoration-none text-muted">
+                <i class="bx bx-chevron-right text-primary"></i> Income Tax
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="https://www.mca.gov.in/content/mca/global/en/home.html" class="text-decoration-none text-muted">
+                <i class="bx bx-chevron-right text-primary"></i> Ministry of Corporate Affairs
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="https://www.cbic.gov.in/" class="text-decoration-none text-muted">
+                <i class="bx bx-chevron-right text-primary"></i> Central Board Of Indirect Taxes & Customs
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="https://ipindia.gov.in/" class="text-decoration-none text-muted">
+                <i class="bx bx-chevron-right text-primary"></i> Intellectual Property Rights (IPR)
+              </a>
+            </li>
+          </ul>
+        </div>
 
-              <strong>Mumbai Office:</strong><br />
-              C/o Mrs. Aarti Vishal Rathi, Gala No.230,<br />
-              Blue Rose Industrial Estate, Near Metro Mall,<br />
-              Borivali East, Mumbai, 400006, IN<br />
-              <a href="https://www.google.com/maps?q=Blue+Rose+Industrial+Estate,+Borivali+East,+Mumbai+400006" target="_blank">Get directions</a>
-            </p>
-
+        <!-- Head Office Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Head Office</h4>
+          <div class="d-flex mb-3 gap-2 align-items-center">
+            <div>
+              <i class=" p-2 text-white bg-primary bx bx-building-house rounded"></i>
+            </div>
+            <div>
+              <h6 class="mb-0 text-primary">Main Office</h6>
+              <small class="text-muted">104-105 Ganga Collidium</small>
+            </div>
           </div>
+          <p class="text-muted mb-3">
+            Opp. Gangadham Towers, Chowk, Ganga Dham<br>
+            Pune, Maharashtra 411037
+          </p>
 
-          <!-- Remaining footer columns unchanged -->
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporate Affairs</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a></li>
-            </ul>
-          </div>
+          <p class="mb-1">
+            <i class="bx bx-phone text-primary me-2"></i>
+            <span class="text-muted">+91-7875037800</span>
+          </p>
+          <p class="mb-1">
+            <i class="bx bx-phone text-primary me-2"></i>
+            <span class="text-muted">+91-020-29992800</span>
+          </p>
+          <p class="mb-2">
+            <i class="bx bx-envelope text-primary me-2"></i>
+            <span class="text-muted">info@spladda.com</span>
+          </p>
+          <p class="mb-3">
+            <i class="bi bi-linkedin text-primary me-2"></i>
+            <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="text-muted">
+              Linkedin
+            </a>
+          </p>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> Assurance and Audit</li>
-              <li><i class="bx bx-chevron-right"></i>Direct Taxation</li>
-              <li><i class="bx bx-chevron-right"></i>Indirect Taxation</li>
-              <li><i class="bx bx-chevron-right"></i>Accounting and Management Consultings</li>
-              <li><i class="bx bx-chevron-right"></i>Business Support Services</li>
-              <li><i class="bx bx-chevron-right"></i>Advisory Services</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Get Amazed By our weekly Newsletter, get Updated About the Stuff</p>
-            <form method="post">
-              <input type="email" placeholder="Enter Your Email address" name="email" />
-              <input type="submit" name="subscribe" value="Subscribe" />
-            </form>
+          <div class="rounded p-2">
+            <small class="text-muted">Other locations in Baner and Mumbai</small>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container d-md-flex py-4">
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; <script>
-            document.write(new Date().getFullYear());
-          </script>
-          <strong><span>S.P. Ladda & Associates</span></strong>. All Rights Reserved.
+      <div class="d-md-flex pb-2 justify-content-between mt-5 pt-4 border-top border-secondary">
+        <div class=" text-center text-md-start">
+          <p class="text-muted mb-0">
+            &copy; <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <span class="">S.P. Ladda & Associates</span>. All Rights Reserved.
+          </p>
         </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-
-        <a href="login.php" class="google-plus"><i class="bx bxs-cog"></i></a>
-        <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <div class="text-center">
+          <div class="text-center mt-2 mt-sm-0">
+            <a href="Login.php">
+              <i class="bi bi-gear bg-primary p-2 rounded text-white"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>

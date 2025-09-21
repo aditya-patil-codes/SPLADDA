@@ -28,7 +28,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,500;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&display=swap" rel="stylesheet"> -->
 
 
-
+  <!-- Bootstrap 5.3 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous" />
 
 
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +48,139 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
   <style>
+    #services {
+      padding: 60px 20px;
+    }
+
+    /* Minor polish */
+    .section-title h2 {
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .industry-card {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      border-radius: 1rem;
+      overflow: hidden;
+      transform: scale(0.9);
+      /* reduces overall size */
+      margin: auto;
+      /* centers card */
+    }
+
+    .industry-card img {
+      width: 100%;
+      height: 180px;
+      /* keep cards consistent */
+      object-fit: cover;
+      /* fill nicely */
+    }
+
+    .industry-card .card-footer {
+      background: #fff;
+      border-top: 0;
+    }
+
+    /* 2. Move arrows more outward */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 6%;
+      /* shrink hitbox */
+    }
+
+    /* Default for small devices */
+    .carousel-control-prev {
+      left: -10px;
+    }
+
+    .carousel-control-next {
+      right: -10px;
+    }
+
+    /* For medium (≥768px) and larger devices */
+    @media (min-width: 768px) {
+      .carousel-control-prev {
+        left: -30px;
+      }
+
+      .carousel-control-next {
+        right: -30px;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.25));
+    }
+
+    .carousel-indicators {
+      bottom: -24px;
+      /* increase this value to move further down */
+    }
+
+    /* Tighten indicators on mobile */
+    .carousel-indicators [data-bs-target] {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    #services .section-title {
+      margin-bottom: 40px;
+    }
+
+    /* Grid Layout */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      /* adjust space between cards */
+      justify-content: center;
+      align-items: stretch;
+    }
+
+    /* Service Card */
+    .service-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .service-card img {
+      max-width: 60px;
+      margin-bottom: 15px;
+    }
+
+    .service-card h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    /* Remove extra gaps & align center */
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
     .icon-box:hover {
       transform: translateY(-5px);
     }
@@ -99,7 +236,7 @@
 
     .whatsapp-float {
       position: fixed;
-      bottom: 10%;
+      bottom: 15vh;
       right: 1%;
       z-index: 10000;
       background-color: rgb(255, 255, 255);
@@ -121,33 +258,50 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo"><img src="assets/img/download.png" alt="" class="img-fluid" /></a>
 
-      <nav id="navbar" class="navbar ">
+      <!-- Logo + Text -->
+      <a href="index.php" class="d-flex align-items-center logo">
+        <img src="assets/img/download.png" alt="Logo" class="img-fluid" style="height:60px; margin-right:10px;" />
+        <div class="logo-text">
+          <h1 style="margin:0; font-size:18px; color:#003366; font-weight:600;">
+            S.P. LADDA & ASSOCIATES
+          </h1>
+          <p style="margin:0; font-size:15px; color:green; font-weight:500;">
+            Chartered Accountants
+          </p>
+        </div>
+      </a>
+
+      <!-- Navbar -->
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a class=" scrollto active" href="#hero">Home</a></li>
-          <li><a class=" scrollto" href="#about">About us</a></li>
-          <li><a class=" scrollto" href="#services">Services</a></li>
-          <li><a class=" scrollto" href="#team">Team</a></li>
-          <li><a class=" scrollto" href="#contact">Contact us</a></li>
-          <li>
-            <a class=" scrollto " href="careers.php">Careers</a>
+          <li><a class="scrollto active" href="./">Home</a></li>
+          <li><a class="scrollto" href="./#about">About us</a></li>
+
+          <!-- Dropdown for Services -->
+          <li class="dropdown">
+            <a href="./#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="ServiceDetails.php#AuditandAssurance">Assurance and Audit</a></li>
+              <li><a href="ServiceDetails.php#DirectTaxation">Direct Taxation</a></li>
+              <li><a href="ServiceDetails.php#IndirectTaxation">Indirect Taxation</a></li>
+              <li><a href="ServiceDetails.php#Accounting&Consuting">Accounting & Consulting</a></li>
+              <li><a href="ServiceDetails.php#BusinessSupportServices">Business Support Services</a></li>
+              <li><a href="ServiceDetails.php#AdvisoryServices">Advisory Services</a></li>
+            </ul>
           </li>
 
-          <li>
-            <a class=" scrollto" href="newsletter.php">Updates</a>
-          </li>
-
-          <li></li>
-
-
+          <li><a class="scrollto" href="./#team">Team</a></li>
+          <li><a class="scrollto" href="./Contact.php">Contact us</a></li>
+          <li><a class="scrollto" href="Careers.php">Careers</a></li>
+          <li><a class="scrollto" href="NewsLetter.php">Updates</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
     </div>
   </header>
+
   <!-- End Header -->
   <div class="modal fade" id="disclaimerModal" tabindex="-1" aria-labelledby="disclaimerLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -222,7 +376,7 @@
             </h1>
             <h2>Explore Oppourtunities at S. P. Ladda & Associates.</h2>
             <div class="text-center">
-              <a href="careers.php" class="btn btn-primary scrollto px-4 py-2 fs-5 mt-5">Apply Now !</a>
+              <a href="Careers.php" class="btn btn-primary scrollto px-4 py-2 fs-5 mt-5">Apply Now !</a>
             </div>
           </div>
         </div>
@@ -273,248 +427,395 @@
   <!-- ======= Services Section ======= -->
   <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
-      <div class="section-title">
+      <div class="section-title text-center">
         <h2>~ Services ~</h2>
         <h6>
-          We offer a comprehensive range of services backed by vast experience and a team of qualified professionals, delivering reliable and value-driven solutions to our clients.
+          We offer a comprehensive range of services backed by vast experience and a team of qualified professionals,
+          delivering reliable and value-driven solutions to our clients.
         </h6>
       </div>
 
-      <div class="row">
-        <a href="serviceDetail.php">
-          <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box " style="border: solid black 1px;">
-              <img src="servicesIcon/search.png" alt="" />
-              <h4><a href="serviceDetail.php">Assurance and Audit</a></h4>
-              <h6>
-                <a style="color: #444444;" href="serviceDetail.php">Building trust through independent evaluation.
-
-                  To guarantee openness, compliance, and operational effectiveness, we offer statutory audits, internal audits, tax audits, Bank Audits, Concurrent Audits and special purpose audits.
-                </a>
-              </h6>
-            </div>
-          </div>
-        </a>
-
-        <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box " style="border: solid black 1px;">
-            <img src="servicesIcon/taxation.png" alt="" />
-            <h4><a href="serviceDetail.php">Direct Taxation</a></h4>
-            <h6><a style="color: #444444;" href="serviceDetail.php">Ensure full compliance while optimizing your tax position.
-
-                For both individuals and enterprises, we provide full-service income tax planning, filing, representation before tax authorities, TDS compliance, and strategic tax structuring advising.
-              </a>
-
-            </h6>
-          </div>
+      <!-- Services Grid -->
+      <div class="services-grid">
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="servicesIcon/search.png" alt="Assurance" />
+          <h4><a href="ServiceDetails.php#AuditandAssurance">Assurance and Audit</a></h4>
+          <p>
+            Building trust through independent evaluation.
+            We offer statutory audits, internal audits, tax audits, Bank Audits, Concurrent Audits and special purpose audits.
+          </p>
         </div>
 
-        <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box " style="border: solid black 1px;">
-            <img src="servicesIcon/taxation (1).png" alt="" />
-            <h4><a href="serviceDetail.php">Indirect Taxation</a></h4>
-            <h6> <a style="color: #444444;" href="serviceDetail.php"> Stay ahead with expert GST and other indirect tax solutions.
-
-                Input credit management, GST registration, filing, audits, compliance checks, and support for departmental evaluations and litigation are all handled by our staff.
-
-              </a>
-
-            </h6>
-          </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="150">
+          <img src="servicesIcon/taxation.png" alt="Direct Taxation" />
+          <h4><a href="ServiceDetails.php#DirectTaxation">Direct Taxation</a></h4>
+          <p>
+            Ensure full compliance while optimizing your tax position.
+            We provide full-service income tax planning, filing, TDS compliance, and strategic structuring.
+          </p>
         </div>
 
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="servicesIcon/taxation (1).png" alt="Indirect Taxation" />
+          <h4><a href="ServiceDetails.php#IndirectTaxation">Indirect Taxation</a></h4>
+          <p>
+            Stay ahead with expert GST and indirect tax solutions.
+            Includes GST registration, filing, audits, compliance checks, and litigation support.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="250">
+          <img src="servicesIcon/talk.png" alt="Consulting" />
+          <h4><a href="ServiceDetails.php#Accounting&Consuting">Accounting & Consulting</a></h4>
+          <p>
+            Empowering your decisions with financial clarity.
+            From forecasting & budgeting to MIS reporting and internal controls.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="servicesIcon/public-service.png" alt="Business Support" />
+          <h4><a href="ServiceDetails.php#BusinessSupportServices">Business Support Services</a></h4>
+          <p>
+            Streamlined back-office solutions for growing businesses.
+            Includes business creation, payroll, ROC compliance, and financing.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="350">
+          <img src="servicesIcon/consultant.png" alt="Advisory" />
+          <h4><a href="ServiceDetails.php#AdvisoryServices">Advisory Services</a></h4>
+          <p>
+            Strategic insights for smarter decisions.
+            Covering due diligence, M&A, valuations, and fund management.
+          </p>
+        </div>
       </div>
-      <div class="row pt-2">
-        <a href="serviceDetail.php">
-          <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box " style="border: solid black 1px;">
-              <img src="servicesIcon/talk.png" alt="" />
-              <h4><a href="serviceDetail.php">Accounting and Management Consulting</a></h4>
-              <h6>
-                <a style="color: #444444;" href="serviceDetail.php">Empowering your decisions with financial clarity.
-
-                  We assist companies in making data-driven decisions and effectively managing their resources, from forecasting and budgeting to MIS reporting and internal controls.
-
-                </a>
-              </h6>
-            </div>
-          </div>
-        </a>
-
-        <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box " style="border: solid black 1px;">
-            <img src="servicesIcon/public-service.png" alt="" />
-            <h4><a href="serviceDetail.php">Business Support Services</a></h4>
-            <h6><a style="color: #444444;" href="serviceDetail.php">Streamlined back-office solutions for growing businesses.
-
-                For seamless operations, we help with business creation, payroll processing, ROC compliance, secretarial support, strategy planning, Project financing and end-to-end financial paperwork.
-
-              </a>
-
-            </h6>
-          </div>
-        </div>
-
-        <div style="cursor: pointer" class="col-lg-4 col-md-6 d-flex pt-2" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box " style="border: solid black 1px;">
-            <img src="servicesIcon/consultant.png" alt="" />
-            <h4><a href="serviceDetail.php">Advisory Services</a></h4>
-            <h6> <a style="color: #444444;" href="serviceDetail.php">Strategic insights that guide smarter business decisions.
-
-                We offer professional advice on due diligence, mergers and acquisitions, demergers, business valuation, and fund management for startups, ensuring informed decisions and adherence to regulations at every stage.
-
-
-              </a>
-
-            </h6>
-          </div>
-        </div>
-
-      </div>
-    </div>
     </div>
   </section>
+
   <!-- new industries  -->
 
-  <section id="clients" class="text-center">
-    <div class="container-fluid" data-aos="fade-up">
-      <div class="section-title">
-        <h2>~ Industries We Serve ~</h2>
-        <h6>
+  <section id="clients" class="py-5 text-center">
+    <div class="container" style="padding-bottom: 4rem;" data-aos="fade-up">
+      <div class="section-title mb-4">
+        <h2 class="mb-2">~ Industries We Serve ~</h2>
+        <h6 class="text-muted">
           We possess a wealth of industry experience and have effectively guided various sectors towards accomplishing their objectives.
         </h6>
       </div>
-      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card-wrapper container d-flex flex-wrap justify-content-center">
-              <div class="card col-md-4 col-lg-3 col-sm-12 mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/banking.jpg" class="card-img-top " style=" object-fit: contain" alt="Bank, NBFC and Financial Institutions" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">
-                    Bank, NBFC and Financial Institutions
-                  </h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-md-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/ITT.jpeg" class="card-img-top " style=" object-fit: contain" alt="IT Sector" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">IT and Software Industry</h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-lg-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/infra1653295242.jpeg" class="card-img-top " style=" object-fit: contain" alt="Infrastructure and real estate" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Infrastructure and real estate</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container d-flex flex-wrap justify-content-center">
-              <div class="card col-md-4 col-lg-3 col-sm-12 mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class="p-0">
-                  <img src="expIcons/FMCG.jpg" class="card-img-top " style=" object-fit: contain" alt="IT and software industry" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Fast-moving Consumer Goods (FMCG)</h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-md-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/doctor.jpg" class="card-img-top " style=" object-fit: contain" alt="Health Care" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Health Care</h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-lg-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/MNC.jpg" class="card-img-top " style=" object-fit: contain" alt="Multinational Companies" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Multinational Companies</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container d-flex flex-wrap justify-content-center">
-              <div class="card col-md-4 col-lg-3 col-sm-12 mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class="p-0">
-                  <img src="expIcons/manufacture.jpeg" class="card-img-top " style=" object-fit: contain" alt="IT and software industry" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Manufacturing - Engineering, OEMs, chemicals</h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-md-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/hsocieties.jpeg" class="card-img-top " style=" object-fit: contain" alt="Health Care" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Housing Societies </h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-lg-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/education.jpeg" class="card-img-top " style=" object-fit: contain" alt="Multinational Companies" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Educational Sector </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-wrapper container d-flex flex-wrap justify-content-center">
-              <div class="card col-md-4 col-lg-3 col-sm-12 mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class="p-0">
-                  <img src="expIcons/charity.webp" class="card-img-top " style=" object-fit: contain" alt="IT and software industry" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Charitable Trusts</h5>
-                </div>
-              </div>
-              <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-md-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/hospitaliy.jpeg" class="card-img-top " style=" object-fit: contain" alt="Health Care" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">Hospitality </h5>
-                </div>
-              </div>
-              <!-- <div class="card col-md-4 col-lg-3 col-sm-12 d-none d-lg-block mx-4 border-2 " style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)">
-                <div class=" p-0">
-                  <img src="expIcons/MNC.jpg" class="card-img-top " style=" object-fit: contain" alt="Multinational Companies" />
-                </div>
-                <div class="card-footer bg-white">
-                  <h5 class="card-title">add one more</h5>
-                </div>
-              </div> -->
-            </div>
-          </div>
+
+      <!-- =========================
+             DESKTOP (lg+) CAROUSEL
+             Shows 3 cards per slide
+        ========================== -->
+      <div id="industriesCarouselDesktop"
+        class="carousel carousel-dark slide d-none d-lg-block"
+        data-bs-ride="carousel"
+        data-bs-interval="3500"
+        data-bs-wrap="true"
+        data-bs-touch="true">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#industriesCarouselDesktop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#industriesCarouselDesktop" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#industriesCarouselDesktop" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#industriesCarouselDesktop" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-3 justify-content-center">
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/banking.jpg" alt="Bank, NBFC and Financial Institutions" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Bank, NBFC & Financial Institutions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/ITT.jpeg" alt="IT and Software Industry" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">IT & Software</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/infra1653295242.jpeg" alt="Infrastructure and Real Estate" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Infrastructure & Real Estate</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-3 justify-content-center">
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/FMCG.jpg" alt="Fast-moving Consumer Goods (FMCG)" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Fast-Moving Consumer Goods (FMCG)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/doctor.jpg" alt="Health Care" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Health Care</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/MNC.jpg" alt="Multinational Companies" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Multinational Companies</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="row g-3 justify-content-center">
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/manufacture.jpeg" alt="Manufacturing - Engineering, OEMs, chemicals" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Manufacturing (Engineering, OEMs, Chemicals)</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/hsocieties.jpeg" alt="Housing Societies" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Housing Societies</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/education.jpeg" alt="Educational Sector" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Educational Sector</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <div class="row g-3 justify-content-center">
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/charity.webp" alt="Charitable Trusts" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Charitable <br> Trusts</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card industry-card h-100">
+                  <img src="expIcons/hospitaliy.jpeg" alt="Hospitality" />
+                  <div class="card-footer">
+                    <h5 class="card-title m-0 py-2">Hospitality</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- If you add more industries, place the 3rd card for this slide here -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#industriesCarouselDesktop" data-bs-slide="prev" aria-label="Previous">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#industriesCarouselDesktop" data-bs-slide="next" aria-label="Next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <!-- =========================
+             MOBILE / TABLET CAROUSEL
+             Shows 1 card per slide
+        ========================== -->
+      <div id="industriesCarouselMobile"
+        class="carousel carousel-dark slide d-lg-none mt-4"
+        data-bs-ride="carousel"
+        data-bs-interval="3500"
+        data-bs-wrap="true"
+        data-bs-touch="true">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <!-- 11 slides => 11 indicators; add/remove as needed -->
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="1"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="1" aria-label="2"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="2" aria-label="3"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="3" aria-label="4"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="4" aria-label="5"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="5" aria-label="6"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="6" aria-label="7"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="7" aria-label="8"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="8" aria-label="9"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="9" aria-label="10"></button>
+          <button type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide-to="10" aria-label="11"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/banking.jpg" alt="Bank, NBFC and Financial Institutions" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Bank, NBFC & Financial Institutions</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/ITT.jpeg" alt="IT and Software Industry" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">IT & Software</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/infra1653295242.jpeg" alt="Infrastructure and Real Estate" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Infrastructure & Real Estate</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/FMCG.jpg" alt="Fast-moving Consumer Goods (FMCG)" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">FMCG</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/doctor.jpg" alt="Health Care" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Health Care</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/MNC.jpg" alt="Multinational Companies" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Multinational Companies</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/manufacture.jpeg" alt="Manufacturing - Engineering, OEMs, chemicals" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Manufacturing (Engineering, OEMs, Chemicals)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/hsocieties.jpeg" alt="Housing Societies" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Housing Societies</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/education.jpeg" alt="Educational Sector" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Educational Sector</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/charity.webp" alt="Charitable Trusts" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Charitable Trusts</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <div class="card industry-card mx-auto" style="max-width: 520px;">
+                <img src="expIcons/hospitaliy.jpeg" alt="Hospitality" />
+                <div class="card-footer">
+                  <h5 class="card-title m-0 py-2">Hospitality</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide="prev" aria-label="Previous">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#industriesCarouselMobile" data-bs-slide="next" aria-label="Next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </div>
   </section>
 
   <!-- reach out method  -->
 
-  <section id="cta" class="cta my-0">
+  <section id="cta" class="cta my-5">
     <div class="container" data-aos="zoom-in">
       <div class="text-center">
         <h3>Reach Out Now !</h3>
@@ -522,7 +823,7 @@
           Lets Do Whats Best for You with Our experience and Your Vision,
           Lets Make it Big !
         </p>
-        <a class="cta-btn" href="#contact">Contact Now</a>
+        <a class="cta-btn" href="Contact.php">Contact Now</a>
       </div>
     </div>
   </section>
@@ -559,7 +860,7 @@
 
 
 
-                <a href="aboutDetail.php" class="btn-learn-more buttonFinal  mx-2">Learn More <span class="fw-bold" style="height: 15px;">&#x2192;</span></a>
+                <a href="LearnMore.php" class="btn-learn-more buttonFinal  mx-2">Learn More <span class="fw-bold" style="height: 15px;">&#x2192;</span></a>
 
 
               </div>
@@ -589,7 +890,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <a href="sameerLadda.php"><img src="assets/img/testimonials/CASameer.jpg" class="img-fluid" alt="" /></a>
+                <a href="SameerLadda.php"><img src="assets/img/testimonials/CASameer.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -604,7 +905,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <a href="vishalRathee.php"><img src="assets/img/testimonials/CARathee.jpg" class="img-fluid" alt="" /></a>
+                <a href="VishalRathi.php"><img src="assets/img/testimonials/CARathee.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -637,7 +938,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <a href="shravanLadda.php"><img src="assets/img/testimonials/CAShravan.jpg" class="img-fluid" alt="" /></a>
+                <a href="ShravanLadda.php"><img src="assets/img/testimonials/CAShravan.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -653,7 +954,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <a href="kiranshah.php"><img src="assets/img/testimonials/caKiran.jpg" class="img-fluid" alt="" /></a>
+                <a href="KiranShah.php"><img src="assets/img/testimonials/caKiran.jpg" class="img-fluid" alt="" /></a>
                 <div class="social">
                   <a><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -689,162 +990,166 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Contact us</h2>
-          <p></p>
-        </div>
-
-        <div>
-
-          <iframe style="border: 0; width: 100%; height: 270px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2650226467517!2d73.8722898740985!3d18.471650870668874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c01eb7f45545%3A0xccdc8a58d49e6f73!2sS.P.%20Ladda%20%26%20Associates!5e0!3m2!1sen!2sin!4v1688147997602!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>104-105 Ganga Collidium</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>caladdaclient@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>020-24244200</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-            <form id="form_id" method="post">
-              <div class="row gy-2 gx-md-3">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control name" id="name" placeholder="Your Name" required style="border-radius: 0px;" />
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control email" name="email" id="email" placeholder="Your Email" required style="border-radius: 0px;" />
-                </div>
-                <div class="form-group col-12">
-                  <input type="text" class="form-control subject" name="subject" id="subject" placeholder="Subject" required style="border-radius: 0px;" />
-                </div>
-                <div class="form-group col-12">
-                  <textarea class="form-control message" name="msg" rows="5" id="msg" placeholder="Message" required style="border-radius: 0px;"></textarea>
-                </div>
-
-                <div class="text-center col-12 mt-3">
-                  <!-- <button type="submit" name="sendmsg">Send Message</button> -->
-                  <button type="submit" class="btn btn-primary" style="border-radius: 0px;" name="sendmsg">Send Message</button>
-                  <!-- <input type="submit" class="btn btn-primary" name="sendmsg" value="Subscribe" /> -->
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- End Contact Section -->
   </main>
   <!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>S.P. Ladda & Associates</h3>
-            <p>
-            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-3">
-              <strong>Primary</strong>
+  <footer class=" pt-5 pb-3 section-bgf">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Newsletter Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Stay Updated</h4>
+          <p class="text-muted">Subscribe to our newsletter for the latest updates on taxation, accounting, and business advisory services.</p>
+          <form class="mt-4">
+            <div class="mb-3">
+              <input type="email" class="form-control form-control-sm  border-1 text-white" placeholder="Your Email Address" required>
             </div>
-            104-105 Ganga Collidium<br />
-            Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra 411037 <br /><br />
+            <button type="submit" class="btn btn-primary btn-sm w-100">Subscribe</button>
+          </form>
 
-            </p>
+        </div>
 
-            <h5>Other Locations</h5>
-            <p>
+        <!-- Services Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Our Services</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Assurance and Audit</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Direct Taxation</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Indirect Taxation</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Accounting and Management Consulting</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Business Support Services</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Advisory Services</span>
+            </li>
+          </ul>
 
-              <strong>Baner Office:</strong><br />
-              Row House no.7, Samruddhi Row Houses,<br />
-              Kalamkar Park Road, Opp Park Marina Society,<br />
-              Balewadi Phata, Baner, Pune, 411045, IN<br />
-              <a href="https://www.google.com/maps?q=18.5640253,73.7844823" target="_blank">Get directions</a><br /><br />
+        </div>
 
-              <strong>Mumbai Office:</strong><br />
-              C/o Mrs. Aarti Vishal Rathi, Gala No.230,<br />
-              Blue Rose Industrial Estate, Near Metro Mall,<br />
-              Borivali East, Mumbai, 400006, IN<br />
-              <a href="https://www.google.com/maps?q=Blue+Rose+Industrial+Estate,+Borivali+East,+Mumbai+400006" target="_blank">Get directions</a>
-            </p>
+        <!-- Useful Links Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Useful Links</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.gst.gov.in/" class="text-decoration-none text-muted ms-2">
+                Goods and Services Tax (GST)
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.incometax.gov.in/iec/foportal/" class="text-decoration-none text-muted ms-2">
+                Income Tax
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.mca.gov.in/content/mca/global/en/home.html" class="text-decoration-none text-muted ms-2">
+                Ministry of Corporate Affairs
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.cbic.gov.in/" class="text-decoration-none text-muted ms-2">
+                Central Board Of Indirect Taxes & Customs (CBIC)
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://ipindia.gov.in/" class="text-decoration-none text-muted ms-2">
+                Intellectual Property Rights (IPR)
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://mahasahakar.maharashtra.gov.in/" class="text-decoration-none text-muted ms-2">
+                Maharashtra Co-operative Department
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069" class="text-decoration-none text-muted ms-2">
+                Maha-RERA
+              </a>
+            </li>
+          </ul>
 
+        </div>
+
+        <!-- Head Office Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Head Office</h4>
+          <div class="d-flex mb-3 gap-2 align-items-center">
+            <div>
+              <i class=" p-2 text-white bg-primary bx bx-building-house rounded"></i>
+            </div>
+            <div>
+              <h6 class="mb-0 text-primary">Main Office</h6>
+              <small class="text-muted">104-105 Ganga Collidium</small>
+            </div>
           </div>
+          <p class="text-muted mb-3">
+            Opp. Gangadham Towers, Chowk, Ganga Dham<br>
+            Pune, Maharashtra 411037
+          </p>
 
-          <!-- Remaining footer columns unchanged -->
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporate Affairs</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a></li>
-            </ul>
-          </div>
+          <p class="mb-1">
+            <i class="bx bx-phone text-primary me-2"></i>
+            <span class="text-muted">+91-7875037800</span>
+          </p>
+          <p class="mb-1">
+            <i class="bx bx-phone text-primary me-2"></i>
+            <span class="text-muted">+91-020-29992800</span>
+          </p>
+          <p class="mb-2">
+            <i class="bx bx-envelope text-primary me-2"></i>
+            <span class="text-muted">info@spladda.com</span>
+          </p>
+          <p class="mb-3">
+            <i class="bi bi-linkedin text-primary me-2"></i>
+            <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="text-muted">
+              Linkedin
+            </a>
+          </p>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> Assurance and Audit</li>
-              <li><i class="bx bx-chevron-right"></i>Direct Taxation</li>
-              <li><i class="bx bx-chevron-right"></i>Indirect Taxation</li>
-              <li><i class="bx bx-chevron-right"></i>Accounting and Management Consultings</li>
-              <li><i class="bx bx-chevron-right"></i>Business Support Services</li>
-              <li><i class="bx bx-chevron-right"></i>Advisory Services</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Get Amazed By our weekly Newsletter, get Updated About the Stuff</p>
-            <form method="post">
-              <input type="email" placeholder="Enter Your Email address" name="email" />
-              <input type="submit" name="subscribe" value="Subscribe" />
-            </form>
+          <div class="rounded p-2">
+            <small class="text-muted">Other locations in Baner and Mumbai</small>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container d-md-flex py-4">
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; <script>
-            document.write(new Date().getFullYear());
-          </script>
-          <strong><span>S.P. Ladda & Associates</span></strong>. All Rights Reserved.
+      <div class="d-md-flex pb-2 mt-5 pt-4 border-top border-secondary">
+        <div class="w-100 text-center">
+          <p class="text-muted mb-0">
+            &copy; <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <span>S.P. Ladda & Associates</span>. All Rights Reserved.
+          </p>
         </div>
-
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
 
-        <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
     </div>
   </footer>
-  <!-- End Footer -->
-  <!-- End Footer -->
+
+
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -876,6 +1181,11 @@
 
   <script src="assets/js/main.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
   <script>
     // const form = document.getElementById('.contact_form');
 

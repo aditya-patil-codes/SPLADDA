@@ -58,27 +58,43 @@ require('connection.php');
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.php" class="logo"><img src="assets/img/download.png" alt="" class="img-fluid" /></a>
 
-        <nav id="navbar" class="navbar ">
+        <!-- Logo + Text -->
+        <a href="index.php" class="d-flex align-items-center logo">
+          <img src="assets/img/download.png" alt="Logo" class="img-fluid" style="height:60px; margin-right:10px;" />
+          <div class="logo-text">
+            <h1 style="margin:0; font-size:18px; color:#003366; font-weight:600;">
+              S.P. LADDA & ASSOCIATES
+            </h1>
+            <p style="margin:0; font-size:15px; color:green; font-weight:500;">
+              Chartered Accountants
+            </p>
+          </div>
+        </a>
+
+        <!-- Navbar -->
+        <nav id="navbar" class="navbar">
           <ul>
-            <li><a class=" scrollto active" href="./">Home</a></li>
-            <li><a class=" scrollto" href="./#about">About us</a></li>
-            <li><a class=" scrollto" href="./#services">Services</a></li>
-            <li><a class=" scrollto" href="./#team">Team</a></li>
-            <li><a class=" scrollto" href="./#contact">Contact us</a></li>
-            <li>
-              <a class=" scrollto " href="careers.php">Careers</a>
+            <li><a class="scrollto active" href="./">Home</a></li>
+            <li><a class="scrollto" href="./#about">About us</a></li>
+
+            <!-- Dropdown for Services -->
+            <li class="dropdown">
+              <a href="./#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="ServiceDetails.php#AuditandAssurance">Assurance and Audit</a></li>
+                <li><a href="ServiceDetails.php#DirectTaxation">Direct Taxation</a></li>
+                <li><a href="ServiceDetails.php#IndirectTaxation">Indirect Taxation</a></li>
+                <li><a href="ServiceDetails.php#Accounting&Consuting">Accounting & Consulting</a></li>
+                <li><a href="ServiceDetails.php#BusinessSupportServices">Business Support Services</a></li>
+                <li><a href="ServiceDetails.php#AdvisoryServices">Advisory Services</a></li>
+              </ul>
             </li>
 
-            <li>
-              <a class=" scrollto" href="newsletter.php">Updates</a>
-            </li>
-
-            <li></li>
-
-
+            <li><a class="scrollto" href="./#team">Team</a></li>
+            <li><a class="scrollto" href="./Contact.php">Contact us</a></li>
+            <li><a class="scrollto" href="Careers.php">Careers</a></li>
+            <li><a class="scrollto" href="NewsLetter.php">Updates</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>

@@ -47,7 +47,207 @@
   <style>
     .whatsapp-float {
       position: fixed;
-      bottom: 10%;
+      bottom: 15vh;
+      right: 1%;
+      z-index: 10000;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      padding: 5px;
+      /* box-shadow: 0 2px 10px rgba(0,0,0,0.3); */
+    }
+
+    .whatsapp-icon {
+      width: 30px;
+      height: 30px;
+    }
+
+    #services {
+      padding: 60px 20px;
+    }
+
+    /* Minor polish */
+    .section-title h2 {
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .industry-card {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      border-radius: 1rem;
+      overflow: hidden;
+      transform: scale(0.9);
+      /* reduces overall size */
+      margin: auto;
+      /* centers card */
+    }
+
+    .industry-card img {
+      width: 100%;
+      height: 180px;
+      /* keep cards consistent */
+      object-fit: cover;
+      /* fill nicely */
+    }
+
+    .industry-card .card-footer {
+      background: #fff;
+      border-top: 0;
+    }
+
+    /* 2. Move arrows more outward */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 6%;
+      /* shrink hitbox */
+    }
+
+    /* Default for small devices */
+    .carousel-control-prev {
+      left: -10px;
+    }
+
+    .carousel-control-next {
+      right: -10px;
+    }
+
+    /* For medium (≥768px) and larger devices */
+    @media (min-width: 768px) {
+      .carousel-control-prev {
+        left: -30px;
+      }
+
+      .carousel-control-next {
+        right: -30px;
+      }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.25));
+    }
+
+    .carousel-indicators {
+      bottom: -24px;
+      /* increase this value to move further down */
+    }
+
+    /* Tighten indicators on mobile */
+    .carousel-indicators [data-bs-target] {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    #services .section-title {
+      margin-bottom: 40px;
+    }
+
+    /* Grid Layout */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      /* adjust space between cards */
+      justify-content: center;
+      align-items: stretch;
+    }
+
+    /* Service Card */
+    .service-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .service-card img {
+      max-width: 60px;
+      margin-bottom: 15px;
+    }
+
+    .service-card h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    /* Remove extra gaps & align center */
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .icon-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .navbar-brand-text {
+      margin-left: 10px;
+    }
+
+    .navbar-nav .nav-link {
+      color: #000;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #023C6C;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+      z-index: 9999;
+    }
+
+    .team .row {
+      justify-content: center;
+      /* Center the rows horizontally */
+    }
+
+    .team .col {
+      margin: 15px;
+      /* Add equal spacing around each card */
+    }
+
+    .popup-close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: red;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 15vh;
       right: 1%;
       z-index: 10000;
       background-color: rgb(255, 255, 255);
@@ -67,27 +267,43 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo"><img src="assets/img/download.png" alt="" class="img-fluid" /></a>
 
-      <nav id="navbar" class="navbar ">
+      <!-- Logo + Text -->
+      <a href="index.php" class="d-flex align-items-center logo">
+        <img src="assets/img/download.png" alt="Logo" class="img-fluid" style="height:60px; margin-right:10px;" />
+        <div class="logo-text">
+          <h1 style="margin:0; font-size:18px; color:#003366; font-weight:600;">
+            S.P. LADDA & ASSOCIATES
+          </h1>
+          <p style="margin:0; font-size:15px; color:green; font-weight:500;">
+            Chartered Accountants
+          </p>
+        </div>
+      </a>
+
+      <!-- Navbar -->
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a class=" scrollto active" href="./">Home</a></li>
-          <li><a class=" scrollto" href="./#about">About us</a></li>
-          <li><a class=" scrollto" href="./#services">Services</a></li>
-          <li><a class=" scrollto" href="./#team">Team</a></li>
-          <li><a class=" scrollto" href="./#contact">Contact us</a></li>
-          <li>
-            <a class=" scrollto " href="careers.php">Careers</a>
+          <li><a class="scrollto active" href="./">Home</a></li>
+          <li><a class="scrollto" href="./#about">About us</a></li>
+
+          <!-- Dropdown for Services -->
+          <li class="dropdown">
+            <a href="./#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="ServiceDetails.php#AuditandAssurance">Assurance and Audit</a></li>
+              <li><a href="ServiceDetails.php#DirectTaxation">Direct Taxation</a></li>
+              <li><a href="ServiceDetails.php#IndirectTaxation">Indirect Taxation</a></li>
+              <li><a href="ServiceDetails.php#Accounting&Consuting">Accounting & Consulting</a></li>
+              <li><a href="ServiceDetails.php#BusinessSupportServices">Business Support Services</a></li>
+              <li><a href="ServiceDetails.php#AdvisoryServices">Advisory Services</a></li>
+            </ul>
           </li>
 
-          <li>
-            <a class=" scrollto" href="newsletter.php">Updates</a>
-          </li>
-
-          <li></li>
-
-
+          <li><a class="scrollto" href="./#team">Team</a></li>
+          <li><a class="scrollto" href="./Contact.php">Contact us</a></li>
+          <li><a class="scrollto" href="Careers.php">Careers</a></li>
+          <li><a class="scrollto" href="NewsLetter.php">Updates</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -267,91 +483,157 @@
   <!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="" style="padding-left:3% ; padding-right:4%" >
-        <div class="row">
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>S.P. Ladda & Associates</h3>
-            <p>
-            <div style=" border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; max-width: 65px; padding:5px" class=" bg-primary text-white mb-3">
-              <strong>Primary</strong>
+  <footer class=" pt-5 pb-3 section-bgf">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Newsletter Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Stay Updated</h4>
+          <p class="text-muted">Subscribe to our newsletter for the latest updates on taxation, accounting, and business advisory services.</p>
+          <form class="mt-4">
+            <div class="mb-3">
+              <input type="email" class=" form-control-sm w-100 border-0 text-white" placeholder="Your Email Address" required>
             </div>
-            104-105 Ganga Collidium<br />
-            Opp. Gangadham Towers, Chowk, Ganga Dham, Pune, Maharashtra 411037 <br /><br />
+            <button type="submit" class="btn btn-primary btn-sm p-1 w-100">Subscribe</button>
+          </form>
 
-            </p>
+        </div>
 
-            <h5>Other Locations</h5>
-            <p>
+        <!-- Services Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Our Services</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Assurance and Audit</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Direct Taxation</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Indirect Taxation</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Accounting and Management Consulting</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Business Support Services</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <span class="ms-2">Advisory Services</span>
+            </li>
+          </ul>
 
-              <strong>Baner Office:</strong><br />
-              Row House no.7, Samruddhi Row Houses,<br />
-              Kalamkar Park Road, Opp Park Marina Society,<br />
-              Balewadi Phata, Baner, Pune, 411045, IN<br />
-              <a href="https://www.google.com/maps?q=Samruddhi+Row+Houses,+Baner,+Pune+411045" target="_blank">Get directions</a><br /><br />
+        </div>
 
-              <strong>Mumbai Office:</strong><br />
-              C/o Mrs. Aarti Vishal Rathi, Gala No.230,<br />
-              Blue Rose Industrial Estate, Near Metro Mall,<br />
-              Borivali East, Mumbai, 400006, IN<br />
-              <a href="https://www.google.com/maps?q=Blue+Rose+Industrial+Estate,+Borivali+East,+Mumbai+400006" target="_blank">Get directions</a>
-            </p>
+        <!-- Useful Links Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Useful Links</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.gst.gov.in/" class="text-decoration-none text-muted ms-2">
+                Goods and Services Tax (GST)
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.incometax.gov.in/iec/foportal/" class="text-decoration-none text-muted ms-2">
+                Income Tax
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.mca.gov.in/content/mca/global/en/home.html" class="text-decoration-none text-muted ms-2">
+                Ministry of Corporate Affairs
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://www.cbic.gov.in/" class="text-decoration-none text-muted ms-2">
+                Central Board Of Indirect Taxes & Customs (CBIC)
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://ipindia.gov.in/" class="text-decoration-none text-muted ms-2">
+                Intellectual Property Rights (IPR)
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://mahasahakar.maharashtra.gov.in/" class="text-decoration-none text-muted ms-2">
+                Maharashtra Co-operative Department
+              </a>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <i class="bx bx-chevron-right text-primary mt-1"></i>
+              <a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069" class="text-decoration-none text-muted ms-2">
+                Maha-RERA
+              </a>
+            </li>
+          </ul>
 
+        </div>
+
+        <!-- Head Office Column -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="border-bottom border-primary pb-2 mb-3">Head Office</h4>
+          <div class="d-flex mb-3 gap-2 align-items-center">
+            <div>
+              <i class=" p-2 text-white bg-primary bx bx-building-house rounded"></i>
+            </div>
+            <div>
+              <h6 class="mb-0 text-primary">Main Office</h6>
+              <small class="text-muted">104-105 Ganga Collidium</small>
+            </div>
           </div>
+          <p class="text-muted mb-3">
+            Opp. Gangadham Towers, Chowk, Ganga Dham<br>
+            Pune, Maharashtra 411037
+          </p>
 
-          <!-- Remaining footer columns unchanged -->
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.gst.gov.in/">Goods and Services Tax (GST)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.incometax.gov.in/iec/foportal/">Income Tax</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry of Corporate Affairs</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://www.cbic.gov.in/">Central Board Of Indirect Taxes & Customs (CBIC)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://ipindia.gov.in/">Intellectual Property Rights (IPR)</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://mahasahakar.maharashtra.gov.in/">Maharashtra Co-operative Department</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="https://maharerait.mahaonline.gov.in/searchlist/search?MenuID=1069">Maha-RERA</a></li>
-            </ul>
-          </div>
+          <p class="mb-1">
+            <i class="bx bx-phone text-primary me-2"></i>
+            <span class="text-muted">+91-7875037800</span>
+          </p>
+          <p class="mb-1">
+            <i class="bx bx-phone text-primary me-2"></i>
+            <span class="text-muted">+91-020-29992800</span>
+          </p>
+          <p class="mb-2">
+            <i class="bx bx-envelope text-primary me-2"></i>
+            <span class="text-muted">info@spladda.com</span>
+          </p>
+          <p class="mb-3">
+            <i class="bi bi-linkedin text-primary me-2"></i>
+            <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="text-muted">
+              Linkedin
+            </a>
+          </p>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> Assurance and Audit</li>
-              <li><i class="bx bx-chevron-right"></i>Direct Taxation</li>
-              <li><i class="bx bx-chevron-right"></i>Indirect Taxation</li>
-              <li><i class="bx bx-chevron-right"></i>Accounting and Management Consultings</li>
-              <li><i class="bx bx-chevron-right"></i>Business Support Services</li>
-              <li><i class="bx bx-chevron-right"></i>Advisory Services</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Get Amazed By our weekly Newsletter, get Updated About the Stuff</p>
-            <form method="post">
-              <input type="email" placeholder="Enter Your Email address" name="email" />
-              <input type="submit" name="subscribe" value="Subscribe" />
-            </form>
+          <div class="rounded p-2">
+            <small class="text-muted">Other locations in Baner and Mumbai</small>
           </div>
         </div>
       </div>
-    </div>
 
-    <div style="padding-left:3% ; padding-right:4%" class=" d-md-flex py-4">
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; <script>
-            document.write(new Date().getFullYear());
-          </script>
-          <strong><span>S.P. Ladda & Associates</span></strong>. All Rights Reserved.
+      <div class="d-md-flex pb-2 mt-5 pt-4 border-top border-secondary">
+        <div class="w-100 text-center">
+          <p class="text-muted mb-0">
+            &copy; <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <span>S.P. Ladda & Associates</span>. All Rights Reserved.
+          </p>
         </div>
-
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
 
-        <a target="_blank" href="https://in.linkedin.com/company/s-p-ladda-associates-co" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
     </div>
   </footer>
   <!-- End Footer -->
